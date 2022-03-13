@@ -1,10 +1,12 @@
+import { CategoriesModule } from './modules/categories/categories.module';
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
+import { ConfigModule } from '@nestjs/config';
+import { ClientProxyProduct } from './proxyrmq/client.proxy';
+import { ProxyRMQModule } from './proxyrmq/proxyrmq.module';
 
 @Module({
-  imports: [],
-  controllers: [AppController],
-  providers: [AppService],
+    imports: [ConfigModule.forRoot({ isGlobal: true }), ProxyRMQModule, CategoriesModule],
+    controllers: [],
+    providers: [ClientProxyProduct],
 })
 export class AppModule {}
