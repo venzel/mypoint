@@ -1,0 +1,19 @@
+version: '3'
+services:
+    product-rabbit:
+        restart: always
+        image: rabbitmq:3-management
+        container_name: product-rabbit
+        hostname: product-rabbit
+        networks:
+            - product-network
+        ports:
+            - 5672:5672
+            - 25676:25676
+            - 15672:15672
+        environment:
+            - RABBITMQ_DEFAULT_USER=admin
+            - RABBITMQ_DEFAULT_PASS=123456
+networks:
+    product-network:
+        driver: bridge
