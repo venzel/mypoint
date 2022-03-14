@@ -29,34 +29,3 @@ nest new api-gateway
 ```bash
 nest new micro-admin-backend
 ```
-
-## Access api-gateway
-
-```bash
-cd api-gateway
-```
-
-## Install packages microservices
-
-```bash
-# Microservices
-yarn add @nestjs/microservices
-
-# Config
-yarn add @nestjs/config
-
-# Service broker
-yarn add amqplib amqp-connection-manager
-
-# Datas
-yarn add moment moment-timezone
-
-# Validations and transformers
-yarn add class-validator class-transformer
-```
-
-### Create module
-
-```bash
-nest g module categories
-```

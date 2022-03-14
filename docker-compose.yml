@@ -1,10 +1,24 @@
 version: '3'
 services:
-    product-rabbit:
+    product-postgres:
+        image: postgres:11
+        container_name: product-postgres
+        restart: always
+        hostname: product-postgres
+        networks:
+            - product-network
+        environment:
+            - POSTGRES_DB=${POSTGRES_DATABASE}
+            - POSTGRES_USER=${POSTGRES_USER}
+            - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+        ports:
+            - ${POSTGRES_PORT}:${POSTGRES_PORT}
+
+    product-rabbitmq:
         restart: always
         image: rabbitmq:3-management
-        container_name: product-rabbit
-        hostname: product-rabbit
+        container_name: product-rabbitmq
+        hostname: product-rabbitmq
         networks:
             - product-network
         ports:
@@ -12,8 +26,8 @@ services:
             - 25676:25676
             - 15672:15672
         environment:
-            - RABBITMQ_DEFAULT_USER=admin
-            - RABBITMQ_DEFAULT_PASS=123456
+            - RABBITMQ_DEFAULT_USER=${RABBITMQ_USER}
+            - RABBITMQ_DEFAULT_PASS=${RABBITMQ_PASSWORD}
 networks:
     product-network:
         driver: bridge
