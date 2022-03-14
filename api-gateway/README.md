@@ -12,7 +12,7 @@ yarn add @nestjs/config
 # Microservices
 yarn add @nestjs/microservices
 
-# Service broker
+# Microservices Service Broker
 yarn add amqplib amqp-connection-manager
 
 # Datas

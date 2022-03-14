@@ -5,22 +5,21 @@ import { ClientProxyProduct } from '../../proxyrmq/client.proxy';
 
 @Injectable()
 export class CategoriesService {
-    private clientAdminBackend =
-        this.clientProxyProduct.getClientProxyAdminBackendInstance();
+    private clientAdminBackend = this.clientProxyProduct.getClientProxyAdminBackendInstance();
 
     constructor(private clientProxyProduct: ClientProxyProduct) {}
 
-    createCategory(createCategoryDto: CreateCategoryDto) {
+    create(createCategoryDto: CreateCategoryDto) {
+        console.log('executou o service!');
+
         this.clientAdminBackend.emit('create-category', createCategoryDto);
     }
 
-    findCategory(id: string): Promise<any> {
-        return this.clientAdminBackend
-            .send('consultar-categorias', id ? id : '')
-            .toPromise();
+    findById(id: string): Promise<any> {
+        return this.clientAdminBackend.send('consultar-categorias', id ? id : '').toPromise();
     }
 
-    updateCategory(updateCategoryDto: UpdateCategoryDto, id: string) {
+    update(updateCategoryDto: UpdateCategoryDto, id: string) {
         this.clientAdminBackend.emit('update-category', {
             id,
             category: updateCategoryDto,
