@@ -54,14 +54,18 @@ Permitem desacoplar vários componentes da aplicação. Cada componente somente 
 
 ### Modelo de comunicação entre Publishes/Subscribes
 
-![Diagrama de bloco](./media/images/modelo-1.png)
+![Diagrama de bloco](./media/images/broker-1.png)
 
 ### Modelo de comunicação entre Request/Response
 
-![Diagrama de bloco](./media/images/modelo-2.png)
+![Diagrama de bloco](./media/images/broker-2.png)
 
-## Serviços
+## Diagrama de relacionamentos
+
+![Diagrama de relacionamentos](./media/diagrams/diagram-v1.png)
 
 👉 [API Gateway]("./api-gateway/README.md")<br />
-👉 [Auth]("./auth/README.md")<br />
+👉 [User]("./user/README.md")<br />
+👉 [Point]("./user/README.md")<br />
+👉 [Scale]("./scale/README.md")<br />
 👉 [Notification]("./notification/README.md")
