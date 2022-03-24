@@ -64,6 +64,91 @@ Permitem desacoplar vários componentes da aplicação. Cada componente somente 
 
 ![Diagrama de relacionamentos](./media/diagrams/diagram-v1.png)
 
+## Prova de conceito do diagrama
+
+```json
+{
+    "USERS": [
+        {
+            "id": 1,
+            "name": "Vanessa"
+        },
+        {
+            "id": 2,
+            "name": "Tiago"
+        }
+    ],
+    "POINTS": [
+        {
+            "id": 1,
+            "user_id": 1,
+            "point": "21-03-2022 13:34"
+        },
+        {
+            "id": 2,
+            "user_id": 2,
+            "point": "21-03-2022 13:37"
+        }
+    ],
+    "SCALES": [
+        {
+            "id": 100,
+            "name": "Horário completo"
+        },
+        {
+            "id": 200,
+            "name": "Horário meio dia manhã"
+        },
+        {
+            "id": 300,
+            "name": "Horário meio dia Tarde"
+        }
+    ],
+    "SCALE_CONFIG": [
+        {
+            "id": 1,
+            "scale_id": 100,
+            "time_start": "08:00",
+            "time_end": "12:00"
+        },
+        {
+            "id": 2,
+            "scale_id": 100,
+            "time_start": "13:00",
+            "time_end": "17:00"
+        },
+        {
+            "id": 3,
+            "scale_id": 200,
+            "time_start": "08:00",
+            "time_end": "12:00"
+        },
+        {
+            "id": 4,
+            "scale_id": 300,
+            "time_start": "13:00",
+            "time_end": "17:00"
+        }
+    ],
+    "NOTIFICATIONS": [
+        {
+            "id": 1,
+            "user_id": 1,
+            "notification": "Vanessa efetuou uma marcação de ponto!",
+            "created_at": "21-03-2022 13:34"
+        },
+        {
+            "id": 1,
+            "user_id": 2,
+            "notification": "Tiago efetuou uma marcação de ponto!",
+            "created_at": "21-03-2022 13:37"
+        }
+    ]
+}
+```
+
+## Link dos microserviços
+
 👉 [API Gateway]("./api-gateway/README.md")<br />
 👉 [User]("./user/README.md")<br />
 👉 [Point]("./user/README.md")<br />
