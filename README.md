@@ -6,7 +6,7 @@ MyPoint é um sistema de registro de pontos de funcionários, utilizando filas c
 
 ## Qual problema resolve?
 
-O registro de ponto ocorre geralmente sempre nos mesmos horários por todos os funcionários de uma empresa, gerando um estress no servidor de banco de dados, com isso, a técnica de utilização de filas se enquandra como uma solução para resolver o devido problema.
+O registro de ponto ocorre geralmente sempre nos mesmos horários por todos os funcionários de uma empresa, gerando um stress no servidor de banco de dados, com isso, a técnica de utilização de filas se enquandra como uma solução para resolver o devido problema.
 
 ## Autor
 
@@ -37,7 +37,8 @@ O registro de ponto ocorre geralmente sempre nos mesmos horários por todos os f
 -   Interceptors
 -   Transformers
 -   Validators
--   Authentication
+-   Swagger
+-   Authorization/Authentication
 -   Upload
 
 ## Arquitetura
@@ -62,9 +63,9 @@ Permitem desacoplar vários componentes da aplicação. Cada componente somente 
 
 ## Diagrama de relacionamentos
 
-![Diagrama de relacionamentos](./media/diagrams/diagram-v1.png)
+![Diagrama de relacionamentos](./media/diagrams/diagram-v2.png)
 
-## Prova de conceito do diagrama
+## Prova de conceito do diagrama de relacionamentos
 
 ```json
 {
@@ -104,7 +105,7 @@ Permitem desacoplar vários componentes da aplicação. Cada componente somente 
             "name": "Horário meio dia Tarde"
         }
     ],
-    "SCALE_CONFIG": [
+    "BREAKS": [
         {
             "id": 1,
             "scale_id": 100,
