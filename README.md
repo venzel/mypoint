@@ -45,6 +45,8 @@ O registro de ponto ocorre geralmente sempre nos mesmos horários por todos os f
 
 ## Arquitetura
 
+![Arquitetura do sistema](./media/images/architeture-v1.png)
+
 ### Broker Based
 
 Permitem desacoplar vários componentes da aplicação. Cada componente somente precisa se conectar ao broker, e pode permanecer sem necessidade de conhecer a existência, localização ou detalhes da implementação de outros componentes. A única coisa que precisa ser compartilhada entre os componentes é o protocolo de mensagens.
