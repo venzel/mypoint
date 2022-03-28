@@ -148,6 +148,17 @@ Permitem desacoplar vários componentes da aplicação. Cada componente somente 
 }
 ```
 
+## Etapas de desenvolvimento
+
+1. Levantamento do problema;
+2. Levantamento dos requisitos;
+3. Definição da arquitetura utilizada;
+4. Definição das tecnologias utilizadas;
+5. Definição das atribuições e tempo de desenvolvimento;
+6. Criação do diagrama de relacionamentos e testes de hipóteses;
+7. Desenvolvimento da documentação e diagramas explicativos no Git;
+8. Desenvolvimento do MVP.
+
 ## Link dos microserviços
 
 👉 [API Gateway]("./api-gateway/README.md")<br />
