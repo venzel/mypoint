@@ -76,6 +76,18 @@ Permitem desacoplar vários componentes da aplicação. Cada componente somente 
 
 ![Diagrama de bloco](./media/images/broker-2.png)
 
+### Arquitetura do backend: Feature by Package
+
+Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Driven Design)**, com o objetivo de tornar o código mais **flexível**, **escalável** e de **manutenção simples**.
+
+#### Vantagens da arquitetura
+
+-   **Manutenção**: Facilita o engajamento de multiplas equipe e colaboradores em um projeto;
+-   **Escalável**: Facilita refatoramento do código monolítico para uma uma estrura de microserviços;
+-   **SOLID**: Facilita a aplicação de todos os princípios do SOLID;
+-   **Git**: Melhora o gerenciamento dos commits, evitando conflitos e etc;
+-   **Testes**: Facilita o desenvolvimento de testes de unidade e integração.
+
 ## Diagrama de relacionamentos
 
 ![Diagrama de relacionamentos](./media/diagrams/diagram-v2.png)
@@ -162,6 +174,12 @@ Permitem desacoplar vários componentes da aplicação. Cada componente somente 
     ]
 }
 ```
+
+## Gitflow
+
+![GitFlow](./media/images/gitflow-v1.png)
+
+👉 [Documentação passo a passo](./gitflow.md)
 
 ## Requisitos funcionais
 
