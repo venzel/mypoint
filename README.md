@@ -14,6 +14,17 @@ O registro de ponto ocorre geralmente sempre nos mesmos horários por todos os f
 
 👉 <a href="https://www.linkedin.com/in/venzel">Edivam Enéas de Almeida Júnior</a><br />
 
+## Etapas de desenvolvimento
+
+1. Levantamento do problema;
+2. Levantamento dos requisitos;
+3. Definição da arquitetura utilizada;
+4. Definição das tecnologias utilizadas;
+5. Definição das atribuições e tempo de desenvolvimento;
+6. Criação do diagrama de relacionamentos e testes de hipóteses;
+7. Desenvolvimento da documentação e diagramas explicativos no Git;
+8. Desenvolvimento do MVP.
+
 ## Stack de tecnologias utilizada nesse projeto
 
 <p align="left">
@@ -152,16 +163,36 @@ Permitem desacoplar vários componentes da aplicação. Cada componente somente 
 }
 ```
 
-## Etapas de desenvolvimento
+## Requisitos funcionais
 
-1. Levantamento do problema;
-2. Levantamento dos requisitos;
-3. Definição da arquitetura utilizada;
-4. Definição das tecnologias utilizadas;
-5. Definição das atribuições e tempo de desenvolvimento;
-6. Criação do diagrama de relacionamentos e testes de hipóteses;
-7. Desenvolvimento da documentação e diagramas explicativos no Git;
-8. Desenvolvimento do MVP.
+### Usuário
+
+1. O sistema deve poder cadastrar um usuário;
+2. O sistema deve poder alterar os dados do usuário;
+3. O sistema deve poder alterar a senha do usuário;
+4. O sistema deve poder recuperar a senha do usuário;
+5. O sistema deve poder deletar um usuário;
+6. O sistema deve poder desabilitar um usuário;
+7. O sistema deve poder buscar usuários.
+
+### Escala
+
+1. O sistema deve poder cadastrar uma escala;
+2. O sistema deve poder alterar uma escala;
+3. O sistema deve poder deletar uma escala.
+
+### Usuário/Escala
+
+1. O Sistema deve poder aossciar uma usuário a uma escala;
+2. O Sistema deve poder desassociar um usuário a uma escala.
+
+### Usuário/Ponto
+
+1. O usuário deve poder cadastrar um ponto.
+
+### Usuário/Relatório
+
+1. O usuário deve poder emitir um relatório.
 
 ## Link dos microserviços
 
