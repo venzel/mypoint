@@ -1,8 +1,10 @@
 # MyPoint
 
-## Sobre o projeto
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/venzel/mypoint/blob/master/LICENSE)
 
-MyPoint é um sistema de registro de pontos de funcionários, utilizando filas com o RabbitMq.
+## Sobre
+
+> **MyPoint** é um sistema de registro de pontos de funcionários, utilizando filas com o RabbitMq.<br /> <a href="http://mypoint.venzel.com.br">👉 MyPoint</a>
 
 ## Qual problema resolve?
 
