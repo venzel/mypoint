@@ -175,15 +175,19 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 }
 ```
 
-## Endpoints
+## Endpoints da API Rest
 
-| Path                                                               | Método HTTP | Descrição                 |
-| ------------------------------------------------------------------ | ----------- | ------------------------- |
-| [/api/v1/users](https://mypoint.venzel.com.br/api/v1/users)        | POST        | Cria um usuário           |
-| [/api/v1/users](https://mypoint.venzel.com.br/api/v1/users)        | GET         | Retorna todos os usuários |
-| [/api/v1/users/{id}](https://mypoint.venzel.com.br/api/v1/users/1) | GET         | Retorna um usuário        |
-| [/api/v1/users/{id}](https://mypoint.venzel.com.br/api/v1/users/1) | DELETE      | Deleta um usuário         |
-| [/api/v1/users/{id}](https://mypoint.venzel.com.br/api/v1/users/1) | PUT         | Edita um usuário          |
+| Path                                                                 | Método | Token | Role  | Descrição               |
+| -------------------------------------------------------------------- | ------ | ----- | ----- | ----------------------- |
+| **USER**                                                             |
+| [/users](https://mypoint.venzel.com.br/users)                        | POST   |       | ALL   | Cria um usuário         |
+| [/users](https://mypoint.venzel.com.br/users)                        | GET    | ✅    | ADMIN | Lista todos os usuários |
+| [/users/{id}](https://mypoint.venzel.com.br/users/1)                 | GET    | ✅    | ADMIN | Exibe um usuário        |
+| [/users/{id}](https://mypoint.venzel.com.br/users/1)                 | DELETE | ✅    | USER  | Deleta um usuário       |
+| [/users/{id}](https://mypoint.venzel.com.br/users/1)                 | PUT    | ✅    | USER  | Edita um usuário        |
+| [/users?name={name}](https://mypoint.venzel.com.br/users?name=tiago) | GET    | ✅    | ADMIN | Busca por usuário       |
+| **SCALE**                                                            |
+| [/scales](https://mypoint.venzel.com.br/scales)                      | POST   | ✅    | ADMIN | Cria uma escala         |
 
 ## Gitflow
 
