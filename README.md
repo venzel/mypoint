@@ -200,9 +200,9 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 | [/manager-user-escale/{1}](https://mypoint.venzel.com.br/manager-user-escale/1)             | UPDATE | 🔥    | ADMIN | Editar escalas do usuário  |
 | [/manager-user-escale/{1}](https://mypoint.venzel.com.br/manager-user-escale/1)             | DELETE | 🔥    | ADMIN | Deleta escala do usuário   |
 | **POINT**                                                                                   |
-| [/point](https://mypoint.venzel.com.br/point)                                               | POST   | 🔥    | USER  | Cria um ponto              |
+| [/points](https://mypoint.venzel.com.br/points)                                             | POST   | 🔥    | USER  | Cria um ponto              |
 | **REPORT**                                                                                  |
-| [/report](https://mypoint.venzel.com.br/report)                                             | GET    | 🔥    | USER  | Exibe o relatório          |
+| [/reports](https://mypoint.venzel.com.br/reports)                                           | GET    | 🔥    | USER  | Exibe o relatório          |
 
 ## Requisitos funcionais
 
