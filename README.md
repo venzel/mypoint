@@ -177,55 +177,74 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 
 ## Endpoints da API Rest
 
-| Path                                                                 | Método | Token | Role  | Descrição               |
-| -------------------------------------------------------------------- | ------ | ----- | ----- | ----------------------- |
-| **USER**                                                             |
-| [/users](https://mypoint.venzel.com.br/users)                        | POST   |       | ALL   | Cria um usuário         |
-| [/users](https://mypoint.venzel.com.br/users)                        | GET    | ✅    | ADMIN | Lista todos os usuários |
-| [/users/{id}](https://mypoint.venzel.com.br/users/1)                 | GET    | ✅    | ADMIN | Exibe um usuário        |
-| [/users/{id}](https://mypoint.venzel.com.br/users/1)                 | DELETE | ✅    | USER  | Deleta um usuário       |
-| [/users/{id}](https://mypoint.venzel.com.br/users/1)                 | PUT    | ✅    | USER  | Edita um usuário        |
-| [/users?name={name}](https://mypoint.venzel.com.br/users?name=tiago) | GET    | ✅    | ADMIN | Busca por usuário       |
-| **SCALE**                                                            |
-| [/scales](https://mypoint.venzel.com.br/scales)                      | POST   | ✅    | ADMIN | Cria uma escala         |
+| Path                                                                                        | Método | Token | Role  | Descrição                  |
+| ------------------------------------------------------------------------------------------- | ------ | ----- | ----- | -------------------------- |
+| **USER**                                                                                    |
+| [/account](https://mypoint.venzel.com.br/account)                                           | GET    |       | ALL   | Efetua login               |
+| [/account](https://mypoint.venzel.com.br/account)                                           | POST   |       | ALL   | Cria um usuário            |
+| [/password-recover](https://mypoint.venzel.com.br/password-recover)                         | POST   |       | ALL   | Recupera a senha           |
+| [/users](https://mypoint.venzel.com.br/users)                                               | GET    | 🔥    | ADMIN | Lista todos os usuários    |
+| [/users/{id}](https://mypoint.venzel.com.br/users/1)                                        | GET    | 🔥    | ADMIN | Exibe um usuário           |
+| [/users/{id}](https://mypoint.venzel.com.br/users/1)                                        | DELETE | 🔥    | USER  | Deleta um usuário          |
+| [/users/{id}](https://mypoint.venzel.com.br/users/1)                                        | PUT    | 🔥    | USER  | Edita um usuário           |
+| [/user-status-toggler/{id}](https://mypoint.venzel.com.br/user-status-toggler/1)            | PATCH  | 🔥    | ADMIN | Altera o status do usuário |
+| [/find-user?name={name}...](https://mypoint.venzel.com.br/find-user?name=tiago&page=number) | GET    | 🔥    | ADMIN | Busca por usuário          |
+| **SCALE**                                                                                   |
+| [/scales](https://mypoint.venzel.com.br/scales)                                             | GET    | 🔥    | ADMIN | Lista as ecalas            |
+| [/scales](https://mypoint.venzel.com.br/scales)                                             | POST   | 🔥    | ADMIN | Cria uma escala            |
+| [/scales/{id}](https://mypoint.venzel.com.br/scales/1)                                      | PUT    | 🔥    | ADMIN | Altera uma escala          |
+| [/scales/{id}](https://mypoint.venzel.com.br/scales/1)                                      | DELETE | 🔥    | ADMIN | Delete uma escala          |
+| [/scales/{id}](https://mypoint.venzel.com.br/scales/1)                                      | GET    | 🔥    | USER  | Exibe uma escala           |
+| **USER/SCALE**                                                                              |
+| [/manager-user-escale](https://mypoint.venzel.com.br/manager-user-escale)                   | GET    | 🔥    | ADMIN | Lista usuários e ecalas    |
+| [/manager-user-escale/{1}](https://mypoint.venzel.com.br/manager-user-escale/1)             | UPDATE | 🔥    | ADMIN | Editar escalas do usuário  |
+| [/manager-user-escale/{1}](https://mypoint.venzel.com.br/manager-user-escale/1)             | DELETE | 🔥    | ADMIN | Deleta escala do usuário   |
+| **POINT**                                                                                   |
+| [/point](https://mypoint.venzel.com.br/point)                                               | POST   | 🔥    | USER  | Cria um ponto              |
+| **REPORT**                                                                                  |
+| [/report](https://mypoint.venzel.com.br/report)                                             | GET    | 🔥    | USER  | Exibe o relatório          |
+
+## Requisitos funcionais
+
+### Usuário
+
+1. O USUÁRIO/ADMIN deve poder efetuar o login/logout;
+2. O USUÁRIO deve poder se cadastrar;
+3. O USUÁRIO deve poder alterar seus dados de nome;
+4. O USUÁRIO deve poder alterar sua senha;
+5. O USUÁRIO deve poder recuperar sua senha;
+6. O ADMIN deve poder visualizar os usuários do sistema;
+7. O ADMIN deve poder deletar um usuário do sistema;
+8. O ADMIN deve poder desabilitar um usuário do sistema;
+9. O ADMIN deve poder buscar por usuários de forma paginada.
+
+### Escala
+
+1. O ADMIN deve poder listar as escalas;
+2. O ADMIN deve poder cadastrar uma escala;
+3. O ADMIN deve poder alterar uma escala;
+4. O ADMIN deve poder deletar uma escala;
+5. O USUÁRIO deve poder visulizar a escala.
+
+### Usuário/Escala
+
+1. O ADMIN deve poder visualizar uma listagem com usuários e escalas associadas;
+2. O ADMIN deve poder associar uma usuário a uma escala;
+3. O ADMIN deve poder desassociar um ou vários usuários a uma escala.
+
+### Usuário/Ponto
+
+1. O USUÁRIO deve poder cadastrar um ponto.
+
+### Usuário/Relatório
+
+1. O USUÁRIO deve poder gerar um relatório de pontos.
 
 ## Gitflow
 
 ![GitFlow](./media/images/gitflow-v1.png)
 
 👉 [Documentação passo a passo](./gitflow.md)
-
-## Requisitos funcionais
-
-### Usuário
-
-1. O sistema deve poder cadastrar um usuário;
-2. O sistema deve poder alterar os dados do usuário;
-3. O sistema deve poder alterar a senha do usuário;
-4. O sistema deve poder recuperar a senha do usuário;
-5. O sistema deve poder deletar um usuário;
-6. O sistema deve poder desabilitar um usuário;
-7. O sistema deve poder buscar usuários;
-8. O sistema deve poder alterar o status do usuário.
-
-### Escala
-
-1. O sistema deve poder cadastrar uma escala;
-2. O sistema deve poder alterar uma escala;
-3. O sistema deve poder deletar uma escala.
-
-### Usuário/Escala
-
-1. O Sistema deve poder aossciar uma usuário a uma escala;
-2. O Sistema deve poder desassociar um usuário a uma escala.
-
-### Usuário/Ponto
-
-1. O usuário deve poder cadastrar um ponto.
-
-### Usuário/Relatório
-
-1. O usuário deve poder emitir um relatório.
 
 ## Link dos microserviços
 
