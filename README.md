@@ -175,6 +175,16 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 }
 ```
 
+## Endpoints
+
+| Path                                                               | Método HTTP | Descrição                 |
+| ------------------------------------------------------------------ | ----------- | ------------------------- |
+| [/api/v1/users](https://mypoint.venzel.com.br/api/v1/users)        | POST        | Cria um usuário           |
+| [/api/v1/users](https://mypoint.venzel.com.br/api/v1/users)        | GET         | Retorna todos os usuários |
+| [/api/v1/users/{id}](https://mypoint.venzel.com.br/api/v1/users/1) | GET         | Retorna um usuário        |
+| [/api/v1/users/{id}](https://mypoint.venzel.com.br/api/v1/users/1) | DELETE      | Deleta um usuário         |
+| [/api/v1/users/{id}](https://mypoint.venzel.com.br/api/v1/users/1) | PUT         | Edita um usuário          |
+
 ## Gitflow
 
 ![GitFlow](./media/images/gitflow-v1.png)
@@ -191,7 +201,8 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 4. O sistema deve poder recuperar a senha do usuário;
 5. O sistema deve poder deletar um usuário;
 6. O sistema deve poder desabilitar um usuário;
-7. O sistema deve poder buscar usuários.
+7. O sistema deve poder buscar usuários;
+8. O sistema deve poder alterar o status do usuário.
 
 ### Escala
 
