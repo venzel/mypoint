@@ -24,7 +24,9 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
 👉 [Swagger de Produção](http://mypoint.venzel.com.br/api)<br />
 👉 [Sistema em produção](http://mypoint.venzel.com.br)<br />
 👉 [Sistema em QA](http://mypoint-qa.venzel.com.br)<br />
-👉 [FAQ](./FAQ.md)<br />
+👉 [VS Code e Utilidades](./VSCODE.md)<br />
+👉 [Ferramentas & Serviços](./TOOLS.md)<br />
+👉 [FAQ GERAL](./FAQ.md)<br />
 
 ## Etapas de desenvolvimento
 
@@ -324,8 +326,8 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 
 O **Swagger** é um framework composto por diversas ferramentas que, independente da linguagem, auxilia a descrição, consumo e visualização de serviços de uma API REST.
 
-👉 [Link do swagger de QA](http://mypoint-qa.venzel.com.br/api)<br />
-👉 [Link do swagger de Produção](http://mypoint.venzel.com.br/api)
+👉 [Link do Swagger de QA](http://mypoint-qa.venzel.com.br/api)<br />
+👉 [Link do Swagger de Produção](http://mypoint.venzel.com.br/api)
 
 ## Diagrama de caso de uso
 
@@ -415,6 +417,7 @@ O **Codeship** é um serviço de entrega contínua hospedado que se concentra na
 -   Fazer um logotipo para o projeto
 -
 -
+-   Documentar SonarLint
 -   Cortar a imagem do Sentry
 -   Criar o menu de diagrama de relacionamentos mais detalhado
 -   Criar o documento de plano de manutenção da atividade

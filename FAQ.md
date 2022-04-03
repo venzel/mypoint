@@ -1,4 +1,4 @@
-# FAQ.md
+# FAQ Geral
 
 [README](./README.md)
 
