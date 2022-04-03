@@ -120,10 +120,6 @@ Permitem desacoplar vários componentes da aplicação. Cada componente somente 
 
 ### Autenticação e Autorização com o Cognito
 
-<p align="center">
-  <img src="https://cdn.worldvectorlogo.com/logos/aws-cognito.svg" alt="Cognito" title="Cognito" width="100" height="100" />
-</p>
-
 O **Cognito** é um serviço da **Amazon** fornece autenticação, autorização e gerenciamento de usuários para aplicações Web e móveis. Os usuários podem fazer login diretamente com um nome de usuário e uma senha ou por meio de terceiros, como o Facebook, a Amazon, o Google ou a Apple.
 
 ### Como funciona o Cognito?
