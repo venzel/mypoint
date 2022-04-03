@@ -87,6 +87,19 @@ Permitem desacoplar vários componentes da aplicação. Cada componente somente 
 
 ![Diagrama de bloco](./media/images/broker-2.png)
 
+### Estratégia de captura de erros com o Sentry
+
+![Sentry](./media/images/sentry.png)
+
+O **Sentry** é um serviço open source para logar erros de aplicações.
+
+A aplicação é configurada para que sempre que ocorrer um erro do tipo 500, a exceção seja capturada e catalogada no Sentry, indicando exatamente a linha que ocorreu o erro, assim como dados de data e hora, tornando mais fácil a identificação de bugs, como mostra no exemplo abaixo:
+
+![Sentry](./media/images/sentry-erro.png)
+
+👉 [Mais informações sobre o Sentry](https://blog.locaweb.com.br/temas/codigo-aberto/voce-consegue-prever-os-bugs-de-sua-aplicacao/)<br />
+👉 [Link oficial do serviço](https://sentry.io)
+
 ### Arquitetura do backend: Feature by Package
 
 Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Driven Design)**, com o objetivo de tornar o código mais **flexível**, **escalável** e de **manutenção simples**.
