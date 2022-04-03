@@ -76,7 +76,7 @@ Os bancos de dados do **Postgres** e **MongoDB** são provenientes de containers
 ## Backend/Frontend
 
 <p align="left">
-  <img src="./media/icons/docker.svg" alt="Docker" title="Docker" width="35" height="35" />
+  <img src="./media/icons/docker.svg" alt="Docker" title="Docker" width="40" height="40" />
   <img src="./media/icons/codeship.svg" alt="Codeship" title="Codeship" width="30" height="30" />
 </p>
 
@@ -299,8 +299,12 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 
 1. O USUÁRIO deve poder gerar um relatório de pontos.
 
-## Gitflow
+## CI/CD
 
-![GitFlow](./media/images/gitflow-v1.png)
+![Gitflow](./media/images/deploy.png)
+
+### Gitflow
+
+![Gitflow](./media/images/gitflow-v1.png)
 
 👉 [Documentação passo a passo](./gitflow.md)
