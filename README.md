@@ -63,12 +63,22 @@ Os bancos de dados do **Postgres** e **MongoDB** são provenientes de containers
 
 ## Frontend
 
+<p align="left">
+  <img src="https://cdn.worldvectorlogo.com/logos/vue-9.svg" alt="VueJs" title="VueJs" width="30" height="30" />
+  <img src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg" alt="Javascript" title="Javascript" width="30" height="40" /> 
+</p>
+
 -   VueJs
 -   Javascript
 
 👉 [Link para o frontend](./frontend/README.md)<br />
 
 ## Backend/Frontend
+
+<p align="left">
+  <img src="./media/icons/docker.svg" alt="Docker" title="Docker" width="35" height="35" />
+  <img src="./media/icons/codeship.svg" alt="Codeship" title="Codeship" width="30" height="30" />
+</p>
 
 -   Docker
 -   Codeship (CI/CD)
@@ -137,7 +147,7 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 
 ![Diagrama de relacionamentos](./media/diagrams/diagram-v2.png)
 
-## Prova de conceito do diagrama de relacionamentos
+## Json (Prova de conceito do diagrama de relacionamentos)
 
 ```json
 {
