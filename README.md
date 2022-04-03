@@ -264,7 +264,7 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 5. O USUÁRIO/ADMIN deve poder recuperar sua senha;
 6. O ADMIN deve poder visualizar os usuários do sistema;
 7. O ADMIN deve poder deletar um usuário do sistema;
-8. O ADMIN deve poder desabilitar um usuário do sistema;
+8. O ADMIN deve poder desabilitar/habilitar um usuário do sistema;
 9. O ADMIN deve poder buscar por usuários de forma paginada.
 
 ### Escala
