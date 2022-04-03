@@ -1,6 +1,6 @@
 # Gitflow
 
-## Autor
+## Autor da FAQ
 
 👉 <a href="https://www.linkedin.com/in/venzel">Edivam Enéas de Almeida Júnior</a><br />
 
@@ -16,13 +16,13 @@ Cada projeto e suas equipes podem optar por um determinado fluxo, abaixo é demo
 
 ## Branchs
 
--   **user** - Eviará commits e pull requests apenas para branch develop. (Atividade de usuário)
--   **develop** - Receberá os pulls requests de user. e enviará pull requests para master (Atividade do owner do GIT).
--   **master** - Receberá o pull request final de uma release. (Atividade do owner do GIT).
+-   **user** - Eviará commits apenas para o próprio user, exemplo: tiago-feature-21.
+-   **develop** - Receberá os merges dos users. (Ambiente de QA)
+-   **master** - Receberá o merge da develop, final de uma release. (Ambiente de produção)
 
 ### Diretrizes
 
-\* As branchs **develop** e **master** são bloqueadas para receber commits e pull requests. (recurso apenas no plano git pro), caso não possua o git pro, fica estabelecido, a proibição o envio de commits e pull requests do user para master.
+\* A branch **master** é bloqueada para receber commits e pull requests dos usuários. (recurso apenas no plano git pro), caso não possua o git pro, fica estabelecido, a proibição o envio de commits e pull requests do user para master.
 
 \* A branch **master** representa o software em **produção**.
 

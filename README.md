@@ -305,10 +305,36 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 
 ## CI/CD
 
-![Gitflow](./media/images/deploy.png)
-
 ### Gitflow
+
+> O Gitflow é um fluxo de trabalho que auxilia o desenvolvimento contínuo de software entre a equipe envolvida.<br /><br />👉 <a href="https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow">Mais informações</a>
+
+### Branchs
 
 ![Gitflow](./media/images/gitflow-v1.png)
 
-👉 [Documentação passo a passo](./gitflow.md)
+-   **user** - Eviará commits apenas para o próprio user, exemplo: tiago-feature-21.
+-   **develop** - Receberá os merges dos users. (Ambiente de QA)
+-   **master** - Receberá o merge da develop, final de uma release. (Ambiente de produção)
+
+### Diretrizes
+
+\* A branch **master** é bloqueada para receber commits e pull requests dos usuários.
+
+\* A branch **master** representa o software em **produção**.
+
+\* A branch **develop** representa o software em **QA**.
+
+\* Fica determinado que sempre que um pull request na branch develop for aprovado ou reprovado, a branch do usuário **NÃO** será deletada, a fim de manter o git organizado.
+
+👉 [Documentação completa do gitflow - passo a passo](./gitflow.md)
+
+### Pipeline
+
+![Gitflow](./media/images/deploy.png)
+
+### Etapas
+
+1 - **Lint**: Nessa etapa é verificado as regras do Sonarlint;<br />
+2 - **Test**: Nessa etapa é realizado os testes unitários;<br />
+3 - **Deploy**: Nessa etapa é realizado o deploy da apliacação.
