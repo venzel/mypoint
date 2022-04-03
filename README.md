@@ -261,7 +261,7 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 
 ### Download do projeto no Insomnia
 
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=MyPoint&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fvenzel%2Fmypoint%2Fmaster%2F./medina/insomnia/insomnia_2022-04-03.json)
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=MyPoint&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fvenzel%2Fmypoint%2Fmaster%2F./media/insomnia/insomnia_2022-04-03.json)
 
 ## Diagrama de caso de uso
 
