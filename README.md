@@ -259,7 +259,7 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 | **REPORT**                                                                                  |
 | [/reports](https://mypoint.venzel.com.br/reports)                                           | GET    | 🔥    | USER  | Exibe o relatório          |
 
-### Download do projeto no Insomnia
+### Download do projeto do Insomnia
 
 [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=MyPoint&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fvenzel%2Fmypoint%2Fmaster%2F./media/insomnia/insomnia_2022-04-03.json)
 
@@ -271,37 +271,37 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 
 ### Usuário
 
-1. O USUÁRIO/ADMIN deve poder efetuar o login/logout;
-2. O USUÁRIO deve poder se cadastrar;
-3. O USUÁRIO deve poder alterar seus dados (nome);
-4. O USUÁRIO deve poder alterar sua senha;
-5. O USUÁRIO/ADMIN deve poder recuperar sua senha;
-6. O ADMIN deve poder visualizar os usuários do sistema;
-7. O ADMIN deve poder deletar um usuário do sistema;
-8. O ADMIN deve poder desabilitar/habilitar um usuário do sistema;
-9. O ADMIN deve poder buscar por usuários de forma paginada.
+1. O **USUÁRIO/ADMIN** deve poder efetuar o **login/logout**;
+2. O **USUÁRIO** deve poder se **cadastrar**;
+3. O **USUÁRIO** deve poder **alterar seus dados** (nome);
+4. O **USUÁRIO** deve poder **alterar sua senha**;
+5. O **USUÁRIO/ADMIN** deve poder **recuperar sua senha**;
+6. O **ADMIN** deve poder **visualizar os usuários** do sistema;
+7. O **ADMIN** deve poder **deletar um usuário** do sistema;
+8. O **ADMIN** deve poder **desabilitar/habilitar um usuário** do sistema;
+9. O **ADMIN** deve poder **buscar por usuários** de forma paginada.
 
 ### Escala
 
-1. O ADMIN deve poder listar as escalas;
-2. O ADMIN deve poder cadastrar uma escala;
-3. O ADMIN deve poder alterar uma escala;
-4. O ADMIN deve poder deletar uma escala;
-5. O USUÁRIO deve poder visulizar a escala.
+1. O **ADMIN** deve poder **listar as escalas**;
+2. O **ADMIN** deve poder **cadastrar uma escala**;
+3. O **ADMIN** deve poder **alterar uma escala**;
+4. O **ADMIN** deve poder **deletar uma escala**;
+5. O **USUÁRIO** deve poder **visulizar uma escala**.
 
 ### Usuário/Escala
 
-1. O ADMIN deve poder visualizar uma listagem com usuários e escalas associadas;
-2. O ADMIN deve poder associar uma usuário a uma escala;
-3. O ADMIN deve poder desassociar um ou vários usuários a uma escala.
+1. O **ADMIN** deve poder **visualizar uma listagem com usuários e escalas associadas**;
+2. O **ADMIN** deve poder **associar uma usuário a uma escala**;
+3. O **ADMIN** deve poder **desassociar um ou vários usuários a uma escala**.
 
 ### Usuário/Ponto
 
-1. O USUÁRIO deve poder cadastrar um ponto.
+1. O **USUÁRIO** deve poder **cadastrar um ponto**.
 
 ### Usuário/Relatório
 
-1. O USUÁRIO deve poder gerar um relatório de pontos.
+1. O **USUÁRIO** deve poder **gerar um relatório de pontos**.
 
 ## CI/CD
 
