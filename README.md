@@ -349,6 +349,8 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 
 ### Pipeline
 
+O **Codeship** é um serviço de entrega contínua hospedado que se concentra na velocidade, confiabilidade e simplicidade. Em nossa arquitetura, o Codeship é integrado com o Github, ele identifica automaticamente quando um commit é realizado e dá sequência na entrega para os ambientes pré configurados, como demonstra na imagem abaixo:
+
 ![Gitflow](./media/images/deploy.png)
 
 ### Etapas
