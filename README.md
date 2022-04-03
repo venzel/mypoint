@@ -246,10 +246,8 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 
 👉 [Documentação passo a passo](./gitflow.md)
 
-## Link dos microserviços
+## Links
 
-👉 [API Gateway]("./api-gateway/README.md")<br />
-👉 [User]("./user/README.md")<br />
-👉 [Point]("./user/README.md")<br />
-👉 [Scale]("./scale/README.md")<br />
-👉 [Notification]("./notification/README.md")
+👉 [Backend](./backend/README.md)<br />
+👉 [Frontend](./frontend/README.md)<br />
+👉 [FAQ](./FAQ.md)
