@@ -24,18 +24,32 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
 
 ## Etapas de desenvolvimento
 
-1. Levantamento do problema a ser resolvido;
-2. Levantamento dos requisitos;
+1. Levantamento do problema a ser resolvido **(Brienfing)**;
+2. Levantamento dos requisitos funcionais;
 3. Definição da arquitetura utilizada;
 4. Definição das tecnologias utilizadas;
-5. Definição das atribuições e tempo de desenvolvimento;
+5. Definição das atribuições e cronograma de estimativas no desenvolvimento das atividades;
 6. Criação do diagrama de relacionamentos e testes de hipóteses;
 7. Desenvolvimento da documentação e diagramas explicativos no Git;
 8. Diagramação das telas (UX Design);
 9. Configurações dos ambientes de QA e Produção;
 10. Desenvolvimento do MVP.<br />
-    10.1. Desenvolvimento da API Rest (Backend);<br />
-    10.2. Desenvolvimento do frontend.<br />
+    10.1. Desenvolvimento da backend;<br />
+    10.2. Desenvolvimento do frontend;<br />
+    10.3. Integração do frontend com o backend.
+
+## Cronograma de estimativas no desenvolvimento das atividades
+
+| Atividade                                 | Esforço (Fibonacci) | Finalizado? | Execução |
+| ----------------------------------------- | ------------------- | ----------- | -------- |
+| Levantamento dos requisitos funcionais    | 1                   | 🔥          | 100%     |
+| Definição das tecnologias utilizadas      | 1                   | 🔥          | 100%     |
+| Criação da documentação no Git            | 16                  | -           | 70%      |
+| Diagramação das telas (UX Design)         | 16                  | -           | 0%       |
+| Configuração do ambiente de QA e produção | 5                   | -           | 0%       |
+| Desenvolvimento do backend                | 21                  | -           | 0%       |
+| Desenvolvimento do frontend               | 21                  | -           | 0%       |
+| Integração do backend com o frontend      | 21                  | -           | 0%       |
 
 ## Backend
 
@@ -358,3 +372,18 @@ O **Codeship** é um serviço de entrega contínua hospedado que se concentra na
 1 - **Lint**: Nessa etapa é verificado as regras do Sonarlint;<br />
 2 - **Test**: Nessa etapa é realizado os testes unitários;<br />
 3 - **Deploy**: Nessa etapa é realizado o deploy da apliacação.
+
+## Tópicos a serem desenvolvidos
+
+-   Tutorial de instalação do VS Code e plugins
+-   Texto explicativo sobre os módulos dos microserviços
+-   Logo do Swagger e texto explicativo
+-   Criar um quadro de cronograma de desenvolvimento das atividades
+-   Cortar a imagem de arquitetura
+-   Fazer um logotipo para o projeto
+-   Logo do RabbitMQ
+-   Ícones de postgres e mongodb
+-   Cortar a imagem do Sentry
+-   Criar o menu de diagrama de relacionamentos mais detalhado
+-   Criar o documento de plano de manutenção da atividade
+-   Criar as telas (UX design)
