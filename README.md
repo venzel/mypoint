@@ -2,13 +2,13 @@
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/venzel/mypoint/blob/master/LICENSE)
 
-## Sobre
+## 📜 Sobre
 
 > **MyPoint** é um sistema de registro de pontos de funcionários, utilizando filas com o RabbitMq.<br /> <a href="http://mypoint.venzel.com.br">👉 MyPoint</a>
 
 ## Qual problema resolve?
 
-O registro de ponto ocorre geralmente sempre nos mesmos horários por todos os funcionários de uma empresa, gerando um stress no servidor de banco de dados, com isso, a técnica de utilização de filas se enquandra como uma solução para resolver o devido problema.
+O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os funcionários de uma empresa, gerando um stress no servidor de banco de dados, com isso, a técnica de utilização de filas se enquandra como uma solução para resolver o devido problema.
 
 ## Autores
 
@@ -255,7 +255,7 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 
 1. O USUÁRIO/ADMIN deve poder efetuar o login/logout;
 2. O USUÁRIO deve poder se cadastrar;
-3. O USUÁRIO deve poder alterar seus dados de nome;
+3. O USUÁRIO deve poder alterar seus dados (nome);
 4. O USUÁRIO deve poder alterar sua senha;
 5. O USUÁRIO deve poder recuperar sua senha;
 6. O ADMIN deve poder visualizar os usuários do sistema;
