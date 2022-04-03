@@ -10,13 +10,13 @@
 
 O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os funcionários de uma empresa, gerando um stress no servidor de banco de dados, com isso, a técnica de utilização de filas se enquandra como uma solução para resolver o devido problema.
 
-## Autores
+## 👤 Autores
 
 | Foto                                      | Nome                                        | Ativo | Dt. inativo | Atribuições                             |
 | ----------------------------------------- | ------------------------------------------- | ----- | ----------- | --------------------------------------- |
 | ![Enéas](./media/images/venzel-thumb.png) | [Enéas Almeida](https://github.com/venzel/) | 🔥    | -           | Manager, Arquiteto, FullStack Developer |
 
-## Links
+## ⚓ Links
 
 👉 [Git do backend](./backend/README.md)<br />
 👉 [Git do frontend](./frontend/README.md)<br />
@@ -42,7 +42,7 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
     10.2. Desenvolvimento do frontend;<br />
     10.3. Integração do frontend com o backend.
 
-## Cronograma de estimativas no desenvolvimento das atividades
+## ⌛ Cronograma de estimativas no desenvolvimento das atividades
 
 | Atividade                                               | Esforço (Fibonacci) | Finalizado? | Execução |
 | ------------------------------------------------------- | ------------------- | ----------- | -------- |
@@ -80,7 +80,7 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
 -   TypeORM / Postgres / MongoDB
 -   TDD com Jest
 
-👉 [Link para o backend](./backend/README.md)<br />
+👉 [Link para o git do backend](./backend/README.md)<br />
 
 ## Persistência dos dados
 
@@ -90,7 +90,7 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
   <img src="./media/icons/docker.svg" alt="Docker" title="Docker" width="40" height="40" />
 </p>
 
-Os bancos de dados do **Postgres** e **MongoDB** são provenientes de containers do docker. Utilizamos o Postgres para as persistências de sistema e o MongoDB para persistência de registro de notificações como demonstrado no diagrama de relacionamentos abaixo.
+Os bancos de dados **Postgres** e **MongoDB** são provenientes de containers do docker. A estratégia é utilizar o Postgres para as persistências gerais do sistema e o MongoDB para persistência de registro de notificações como demonstrado no diagrama de relacionamentos abaixo.
 
 ## Frontend
 
@@ -102,7 +102,7 @@ Os bancos de dados do **Postgres** e **MongoDB** são provenientes de containers
 -   VueJs
 -   Javascript
 
-👉 [Link para o frontend](./frontend/README.md)<br />
+👉 [Link para o git do frontend](./frontend/README.md)<br />
 
 ## Backend/Frontend
 
@@ -118,7 +118,7 @@ Os bancos de dados do **Postgres** e **MongoDB** são provenientes de containers
 
 -   Microserviços
 -   Filas com RabbitMq
--   Authorization/Authentication
+-   Authorization/Authentication com o Cognito
 -   Interceptors
 -   Transformers
 -   Validators
