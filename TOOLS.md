@@ -1,4 +1,4 @@
-# Ferramentas e serviços
+# Ferramentas & Serviços
 
 [README](./README.md)
 

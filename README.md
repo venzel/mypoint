@@ -24,9 +24,9 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
 👉 [Swagger de Produção](http://mypoint.venzel.com.br/api)<br />
 👉 [Sistema em produção](http://mypoint.venzel.com.br)<br />
 👉 [Sistema em QA](http://mypoint-qa.venzel.com.br)<br />
-👉 [VS Code e Utilidades](./VSCODE.md)<br />
+👉 [VS Code (Settings, Keybinds, Theme e Plugins)](./VSCODE.md)<br />
 👉 [Ferramentas & Serviços](./TOOLS.md)<br />
-👉 [FAQ GERAL](./FAQ.md)<br />
+👉 [FAQ Geral](./FAQ.md)<br />
 
 ## Etapas de desenvolvimento
 
