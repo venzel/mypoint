@@ -52,10 +52,10 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
 | Desenvolvimento do frontend                             | 21                  | -           | 0%       |
 | Integração do backend com o frontend                    | 21                  | -           | 0%       |
 
-### Significados dos esforços
+### Significados dos esforços na escala Fibonacci
 
 -   **Esforço 1** - Representa 2 horas.
--   **sforço 5** - Representa 10 horas.
+-   **Esforço 5** - Representa 10 horas.
 -   **Esforço 21** - Representa horas não determinadas.
 
 ## Backend
@@ -80,6 +80,12 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
 
 ## Persistência dos dados
 
+<p align="left">
+  <img src="./media/icons/postgres.svg" alt="Postgres" title="Postgres" width="35" height="35" />
+  <img src="./media/icons/mongodb.svg" alt="MongoDB" title="MongoDB" width="35" height="35" />
+  <img src="./media/icons/docker.svg" alt="Docker" title="Docker" width="40" height="40" />
+</p>
+
 Os bancos de dados do **Postgres** e **MongoDB** são provenientes de containers do docker. Utilizamos o Postgres para as persistências de sistema e o MongoDB para persistência de registro de notificações como demonstrado no diagrama de relacionamentos abaixo.
 
 ## Frontend
@@ -97,7 +103,7 @@ Os bancos de dados do **Postgres** e **MongoDB** são provenientes de containers
 ## Backend/Frontend
 
 <p align="left">
-  <img src="./media/icons/docker.svg" alt="Docker" title="Docker" width="40" height="40" />
+  <img src="./media/icons/docker.svg" alt="Docker" title="Docker" width="30" height="30" />
   <img src="./media/icons/codeship.svg" alt="Codeship" title="Codeship" width="30" height="30" />
 </p>
 
