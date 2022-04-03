@@ -14,16 +14,26 @@ O registro de ponto ocorre geralmente sempre nos mesmos horários por todos os f
 
 👉 <a href="https://www.linkedin.com/in/venzel">Edivam Enéas de Almeida Júnior</a><br />
 
+## Links
+
+👉 [Backend](./backend/README.md)<br />
+👉 [Frontend](./frontend/README.md)<br />
+👉 [FAQ](./FAQ.md)
+
 ## Etapas de desenvolvimento
 
-1. Levantamento do problema;
+1. Levantamento do problema a ser resolvido;
 2. Levantamento dos requisitos;
 3. Definição da arquitetura utilizada;
 4. Definição das tecnologias utilizadas;
 5. Definição das atribuições e tempo de desenvolvimento;
 6. Criação do diagrama de relacionamentos e testes de hipóteses;
 7. Desenvolvimento da documentação e diagramas explicativos no Git;
-8. Desenvolvimento do MVP.
+8. Diagramação das telas (UX Design);
+9. Configurações dos ambientes de QA e Produção;
+10. Desenvolvimento do MVP.
+    10.1. Desenvolvimento da API Rest (Backend);
+    10.2. Desenvolvimento do frontend.
 
 ## Stack de tecnologias utilizada nesse projeto
 
@@ -49,6 +59,7 @@ O registro de ponto ocorre geralmente sempre nos mesmos horários por todos os f
 -   Broker baseado no RabbitMq
 -   Interceptors
 -   Transformers
+-   Captura de errors com o Sentry
 -   Validators
 -   Swagger
 -   Authorization/Authentication
@@ -245,9 +256,3 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 ![GitFlow](./media/images/gitflow-v1.png)
 
 👉 [Documentação passo a passo](./gitflow.md)
-
-## Links
-
-👉 [Backend](./backend/README.md)<br />
-👉 [Frontend](./frontend/README.md)<br />
-👉 [FAQ](./FAQ.md)
