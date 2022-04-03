@@ -131,13 +131,13 @@ Os bancos de dados **Postgres** e **MongoDB** são provenientes de containers do
 
 ![Arquitetura do sistema](./media/images/architeture-v1.png)
 
-### Broker
+### Filas com o RabbitMQ
 
 <p align="center">
     <img src="./media/images/rabbitmq-logo.png" alt="RabbitMq" title="RabbitMq" width="300" />
 </p>
 
-Permitem desacoplar vários componentes da aplicação. Cada componente somente precisa se conectar ao broker, e pode permanecer sem necessidade de conhecer a existência, localização ou detalhes da implementação de outros componentes. A única coisa que precisa ser compartilhada entre os componentes é o protocolo de mensagens.
+A utilização de filas permitem desacoplar vários componentes da aplicação. Cada componente somente precisa se conectar ao broker, e pode permanecer sem necessidade de conhecer a existência, localização ou detalhes da implementação de outros componentes. A única coisa que precisa ser compartilhada entre os componentes é o protocolo de mensagens.
 
 ### Um broker se divide em:
 
