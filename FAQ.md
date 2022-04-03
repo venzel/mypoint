@@ -22,3 +22,4 @@
 -   [Docker commands](./media/faq/docker-commands.md)
 -   [Git global configs](./media/faq/git-global-configs.md)
 -   [Dump Postgres with Docker](./media/faq/dump-postgres-docker.md)
+-   [Git install and commands](./media/faq/git-install-and-commands.md)

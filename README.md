@@ -409,7 +409,7 @@ O **Codeship** é um serviço de entrega contínua hospedado que se concentra na
 
 ## Tópicos a serem desenvolvidos
 
--   Tutorial de instalação do VS Code e plugins
+-
 -   Texto explicativo sobre os módulos dos microserviços
 -
 -
@@ -418,6 +418,7 @@ O **Codeship** é um serviço de entrega contínua hospedado que se concentra na
 -
 -
 -   Documentar SonarLint
+-   Documentar sobre o convetional commits
 -   Cortar a imagem do Sentry
 -   Criar o menu de diagrama de relacionamentos mais detalhado
 -   Criar o documento de plano de manutenção da atividade
