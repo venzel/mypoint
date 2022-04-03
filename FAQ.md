@@ -18,3 +18,7 @@
 -   [Nginx install and configure](./media/faq/nginx-install-and-configure.md)
 -   [Letsencrypt configure](./media/faq/letsencrypt-configure.md)
 -   [Create daemon service](./media/faq/create-daemon-service-spring-boot.md)
+-   [Insomnia theme dracula](./media/faq/insomnia-theme-dracula.md)
+-   [Docker commands](./media/faq/docker-commands.md)
+-   [Git global configs](./media/faq/git-global-configs.md)
+-   [Dump Postgres with Docker](./media/faq/dump-postgres-docker.md)

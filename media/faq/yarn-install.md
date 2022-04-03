@@ -1,6 +1,6 @@
 # Yarn install
 
-[FAQ](../FAQ.md)
+[FAQ](../../FAQ.md)
 
 ## Add key
 

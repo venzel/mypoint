@@ -1,6 +1,6 @@
 # Docker install
 
-[FAQ](../FAQ.md)
+[FAQ](../../FAQ.md)
 
 > **Documentation:** https://docs.docker.com/install/linux/docker-ce/ubuntu/
 

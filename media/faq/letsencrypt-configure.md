@@ -1,6 +1,6 @@
 # Letsencrypt configure
 
-[FAQ](../FAQ.md)
+[FAQ](../../FAQ.md)
 
 ## Go to ~
 

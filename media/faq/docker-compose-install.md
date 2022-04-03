@@ -1,6 +1,6 @@
 # Docker compose install
 
-[FAQ](../FAQ.md)
+[FAQ](../../FAQ.md)
 
 > **Documentation:** https://docs.docker.com/compose/install/
 

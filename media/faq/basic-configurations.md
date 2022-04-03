@@ -1,6 +1,6 @@
 # Basic configurations
 
-[FAQ](../FAQ.md)
+[FAQ](../../FAQ.md)
 
 ## Alter hostname
 

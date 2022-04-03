@@ -1,6 +1,6 @@
 # ZSH install and configure
 
-[FAQ](../FAQ.md)
+[FAQ](../../FAQ.md)
 
 ## Install ZSH
 

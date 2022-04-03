@@ -1,6 +1,6 @@
 # Nginx install and configure
 
-[FAQ](../FAQ.md)
+[FAQ](../../FAQ.md)
 
 > **Documentacao:** [digitalocean.com...](https://www.digitalocean.com/community/tutorials/how-to-increase-pagespeed-score-by-changing-your-nginx-configuration-on-ubuntu-16-04)
 

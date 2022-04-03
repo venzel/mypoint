@@ -1,6 +1,6 @@
 # Ubuntu theme dracula
 
-[FAQ](../FAQ.md)
+[FAQ](../../FAQ.md)
 
 > **Documentation:** https://draculatheme.com/gtk
 

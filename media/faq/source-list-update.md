@@ -1,6 +1,6 @@
 # Source list update
 
-[FAQ](../FAQ.md)
+[FAQ](../../FAQ.md)
 
 > **Documentation:** https://www.gnulinuxbrasil.com.br/2021/09/01/ferramenta-apt-install-ou-apt-get-install-muito-lenta-para-download/
 

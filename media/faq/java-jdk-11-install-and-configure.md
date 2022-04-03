@@ -1,6 +1,6 @@
 # Install and configure java JDK v11.0.11
 
-[FAQ](../FAQ.md)
+[FAQ](../../FAQ.md)
 
 > **Documentation:** https://www.vivaolinux.com.br/dica/Instalacao-e-configuracao-do-Java-e-do-PATH
 

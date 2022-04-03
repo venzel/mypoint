@@ -1,6 +1,6 @@
 # NodeJs install with NVM
 
-[FAQ](../FAQ.md)
+[FAQ](../../FAQ.md)
 
 > **Documentation:** https://jonatasoliveira.me/como-instalar-node-nvm/
 

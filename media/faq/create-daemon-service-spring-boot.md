@@ -1,6 +1,6 @@
 # Create daemon service Spring Boot
 
-[FAQ](../FAQ.md)
+[FAQ](../../FAQ.md)
 
 ## Go to folder project
 

@@ -1,6 +1,6 @@
 # Packages importants
 
-[FAQ](../FAQ.md)
+[FAQ](../../FAQ.md)
 
 ## Curl
 

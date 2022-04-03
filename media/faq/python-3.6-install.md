@@ -1,6 +1,6 @@
 # Python 3.6 install
 
-[FAQ](../FAQ.md)
+[FAQ](../../FAQ.md)
 
 > **Documentation:** https://launchpad.net/~deadsnakes/+archive/ubuntu/ppa
 
