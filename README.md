@@ -114,7 +114,7 @@ Os bancos de dados **Postgres** e **MongoDB** são provenientes de containers do
 -   Docker
 -   Codeship (CI/CD)
 
-## Técnicas
+## Recursos e técnicas utilizadas
 
 -   Microserviços
 -   Filas com RabbitMq
@@ -134,7 +134,7 @@ Os bancos de dados **Postgres** e **MongoDB** são provenientes de containers do
 ### Filas com o RabbitMQ
 
 <p align="center">
-    <img src="./media/images/rabbitmq-logo.png" alt="RabbitMq" title="RabbitMq" width="300" />
+    <img src="./media/images/rabbitmq-logo.png" alt="RabbitMq" title="RabbitMq" width="200" />
 </p>
 
 A utilização de filas permitem desacoplar vários componentes da aplicação. Cada componente somente precisa se conectar ao broker, e pode permanecer sem necessidade de conhecer a existência, localização ou detalhes da implementação de outros componentes. A única coisa que precisa ser compartilhada entre os componentes é o protocolo de mensagens.
@@ -319,7 +319,7 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 ### Swagger
 
 <p align="center">
-    <img src="./media/images/swagger.webp" alt="Swagger" title="Swagger" width="300" />
+    <img src="./media/images/swagger.webp" alt="Swagger" title="Swagger" width="400" />
 </p>
 
 O **Swagger** é um framework composto por diversas ferramentas que, independente da linguagem, auxilia a descrição, consumo e visualização de serviços de uma API REST.
@@ -409,12 +409,12 @@ O **Codeship** é um serviço de entrega contínua hospedado que se concentra na
 
 -   Tutorial de instalação do VS Code e plugins
 -   Texto explicativo sobre os módulos dos microserviços
--   Logo do Swagger e texto explicativo
--   Criar um quadro de cronograma de desenvolvimento das atividades
+-
+-
 -   Cortar a imagem de arquitetura
 -   Fazer um logotipo para o projeto
--   Logo do RabbitMQ
--   Ícones de postgres e mongodb
+-
+-
 -   Cortar a imagem do Sentry
 -   Criar o menu de diagrama de relacionamentos mais detalhado
 -   Criar o documento de plano de manutenção da atividade
