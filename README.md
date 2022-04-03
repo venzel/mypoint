@@ -12,7 +12,7 @@ O registro de ponto ocorre geralmente sempre nos mesmos horários por todos os f
 
 ## Autores
 
-| Foto                                      | Nome                                        | Ativo | Dt. inativo | Função                                  |
+| Foto                                      | Nome                                        | Ativo | Dt. inativo | Atribuições                             |
 | ----------------------------------------- | ------------------------------------------- | ----- | ----------- | --------------------------------------- |
 | ![Enéas](./media/images/venzel-thumb.png) | [Enéas Almeida](https://github.com/venzel/) | 🔥    | -           | Manager, Arquiteto, FullStack Developer |
 
@@ -33,11 +33,11 @@ O registro de ponto ocorre geralmente sempre nos mesmos horários por todos os f
 7. Desenvolvimento da documentação e diagramas explicativos no Git;
 8. Diagramação das telas (UX Design);
 9. Configurações dos ambientes de QA e Produção;
-10. Desenvolvimento do MVP.
-    10.1. Desenvolvimento da API Rest (Backend);
-    10.2. Desenvolvimento do frontend.
+10. Desenvolvimento do MVP.<br />
+    10.1. Desenvolvimento da API Rest (Backend);<br />
+    10.2. Desenvolvimento do frontend.<br />
 
-## Stack de tecnologias utilizada nesse projeto
+## Backend
 
 <p align="left">
   <img src="./media/icons/nestjs.svg" alt="NestJs" title="NestJs" width="35" height="35" />
@@ -50,10 +50,24 @@ O registro de ponto ocorre geralmente sempre nos mesmos horários por todos os f
 
 -   NestJs
 -   RabbitMq
--   Cognito
--   Typescript
--   TypeORM / Postgres
+-   Cognito (AWS)
+-   Typescript / Javascript
+-   TypeORM / Postgres / MongoDB
 -   TDD com Jest
+
+## Persistência dos dados
+
+Os bancos de dados do **Postgres** e **MongoDB** são provenientes de containers do docker. Utilizamos o Postgres para as persistências de sistema e o MongoDB para persistência de registro de notificações como demonstrado no diagrama de relacionamentos abaixo.
+
+## Frontend
+
+-   VueJs
+-   Javascript
+
+## Backend/Frontend
+
+-   Docker
+-   Codeship (CI/CD)
 
 ## Técnicas
 
@@ -62,6 +76,7 @@ O registro de ponto ocorre geralmente sempre nos mesmos horários por todos os f
 -   Interceptors
 -   Transformers
 -   Captura de errors com o Sentry
+-   Padronização de commits (Conventional commits)
 -   Validators
 -   Swagger
 -   Authorization/Authentication
