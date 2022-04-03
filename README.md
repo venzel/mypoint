@@ -4,7 +4,7 @@
 
 ## 📜 Sobre
 
-> **MyPoint** é um sistema de registro de pontos de funcionários, utilizando filas com o RabbitMq.<br /> <a href="http://mypoint.venzel.com.br">👉 MyPoint</a>
+> **MyPoint** é um sistema de registro de pontos de funcionários, utilizando filas com o RabbitMq.<br /> <a href="http://mypoint.venzel.com.br/api">👉 MyPoint</a>
 
 ## Qual problema resolve?
 
@@ -18,9 +18,13 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
 
 ## Links
 
-👉 [Backend](./backend/README.md)<br />
-👉 [Frontend](./frontend/README.md)<br />
-👉 [FAQ](./FAQ.md)
+👉 [Git do backend](./backend/README.md)<br />
+👉 [Git do frontend](./frontend/README.md)<br />
+👉 [Swagger de QA](http://mypoint-qa.venzel.com.br/api)<br />
+👉 [Swagger de Produção](http://mypoint.venzel.com.br/api)<br />
+👉 [Sistema em produção](http://mypoint.venzel.com.br)<br />
+👉 [Sistema em QA](http://mypoint-qa.venzel.com.br)<br />
+👉 [FAQ](./FAQ.md)<br />
 
 ## Etapas de desenvolvimento
 
@@ -307,6 +311,17 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 ### Download do projeto do Insomnia
 
 [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=MyPoint&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fvenzel%2Fmypoint%2Fmaster%2F./media/insomnia/insomnia_2022-04-03.json)
+
+### Swagger
+
+<p align="center">
+    <img src="./media/images/swagger.webp" alt="Swagger" title="Swagger" width="300" />
+</p>
+
+O **Swagger** é um framework composto por diversas ferramentas que, independente da linguagem, auxilia a descrição, consumo e visualização de serviços de uma API REST.
+
+👉 [Link do swagger de QA](http://mypoint-qa.venzel.com.br/api)<br />
+👉 [Link do swagger de Produção](http://mypoint.venzel.com.br/api)
 
 ## Diagrama de caso de uso
 
