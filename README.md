@@ -118,6 +118,24 @@ Permitem desacoplar vários componentes da aplicação. Cada componente somente 
 
 ![Diagrama de bloco](./media/images/broker-2.png)
 
+### Autenticação e Autorização com o Cognito
+
+<p align="left">
+  <img src="https://cdn.worldvectorlogo.com/logos/aws-cognito.svg" alt="Cognito" title="Cognito" width="100" height="100" />
+</p>
+
+O **Cognito** é um serviço da **Amazon** fornece autenticação, autorização e gerenciamento de usuários para aplicações Web e móveis. Os usuários podem fazer login diretamente com um nome de usuário e uma senha ou por meio de terceiros, como o Facebook, a Amazon, o Google ou a Apple.
+
+### Como funciona o Cognito?
+
+![Cognito arquitetura](./media/images/cognito-token.png)
+
+1 - Na primeira etapa, o usuário do aplicativo faz login por meio de um grupo de usuários e recebe tokens desse grupo após uma autenticação bem-sucedida;<br />
+2 - Em seguida, a aplicação troca os tokens do grupo de usuários por credenciais da AWS por meio de um grupo de identidades;<br />
+3 - Por fim, o usuário da aplicação pode usar essas credenciais para acessar rotas privadas da API.
+
+👉 [Mais informações sobre o Cognito](https://docs.aws.amazon.com/pt_br/cognito/latest/developerguide/what-is-amazon-cognito.html)
+
 ### Estratégia de captura de erros com o Sentry
 
 ![Sentry](./media/images/sentry.png)
@@ -147,7 +165,7 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 
 ![Diagrama de relacionamentos](./media/diagrams/diagram-v2.png)
 
-## Json (Prova de conceito do diagrama de relacionamentos)
+## JSON (Prova de conceito do diagrama de relacionamentos)
 
 ```json
 {
