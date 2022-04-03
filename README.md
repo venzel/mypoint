@@ -120,7 +120,7 @@ Permitem desacoplar vários componentes da aplicação. Cada componente somente 
 
 ### Autenticação e Autorização com o Cognito
 
-<p align="left">
+<p align="center">
   <img src="https://cdn.worldvectorlogo.com/logos/aws-cognito.svg" alt="Cognito" title="Cognito" width="100" height="100" />
 </p>
 
@@ -128,17 +128,21 @@ O **Cognito** é um serviço da **Amazon** fornece autenticação, autorização
 
 ### Como funciona o Cognito?
 
-![Cognito arquitetura](./media/images/cognito-token.png)
+<p align="center">
+    <img src="./media/images/cognito-token.png" alt="Cognito arquitetura" />
+</p>
 
-1 - Na primeira etapa, o usuário do aplicativo faz login por meio de um grupo de usuários e recebe tokens desse grupo após uma autenticação bem-sucedida;<br />
-2 - Em seguida, a aplicação troca os tokens do grupo de usuários por credenciais da AWS por meio de um grupo de identidades;<br />
-3 - Por fim, o usuário da aplicação pode usar essas credenciais para acessar rotas privadas da API.
+**Etapa 1** - o usuário do aplicativo faz login por meio de um grupo de usuários e recebe tokens desse grupo após uma autenticação bem-sucedida;<br />
+**Etapa 2** - Em seguida, a aplicação troca os tokens do grupo de usuários por credenciais da AWS por meio de um grupo de identidades;<br />
+**Etapa 3** - Por fim, o usuário da aplicação pode usar essas credenciais para acessar rotas privadas da API.
 
 👉 [Mais informações sobre o Cognito](https://docs.aws.amazon.com/pt_br/cognito/latest/developerguide/what-is-amazon-cognito.html)
 
 ### Estratégia de captura de erros com o Sentry
 
-![Sentry](./media/images/sentry.png)
+<p align="center">
+    <img src="./media/images/sentry.png" alt="Sentry" />
+</p>
 
 O **Sentry** é um serviço open source para logar erros da aplicação.
 
