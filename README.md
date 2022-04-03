@@ -24,7 +24,7 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
 
 ## Etapas de desenvolvimento
 
-1. Levantamento do problema a ser resolvido **(Brienfing)**;
+1. Levantamento do problema a ser resolvido **(Briefing)**;
 2. Levantamento dos requisitos funcionais;
 3. Definição da arquitetura utilizada;
 4. Definição das tecnologias utilizadas;
@@ -40,16 +40,23 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
 
 ## Cronograma de estimativas no desenvolvimento das atividades
 
-| Atividade                                 | Esforço (Fibonacci) | Finalizado? | Execução |
-| ----------------------------------------- | ------------------- | ----------- | -------- |
-| Levantamento dos requisitos funcionais    | 1                   | 🔥          | 100%     |
-| Definição das tecnologias utilizadas      | 1                   | 🔥          | 100%     |
-| Criação da documentação no Git            | 16                  | -           | 70%      |
-| Diagramação das telas (UX Design)         | 16                  | -           | 0%       |
-| Configuração do ambiente de QA e produção | 5                   | -           | 0%       |
-| Desenvolvimento do backend                | 21                  | -           | 0%       |
-| Desenvolvimento do frontend               | 21                  | -           | 0%       |
-| Integração do backend com o frontend      | 21                  | -           | 0%       |
+| Atividade                                               | Esforço (Fibonacci) | Finalizado? | Execução |
+| ------------------------------------------------------- | ------------------- | ----------- | -------- |
+| Levantamento do problema a ser resolvido **(Briefing)** | 3                   | 🔥          | 100%     |
+| Levantamento dos requisitos funcionais                  | 1                   | 🔥          | 100%     |
+| Definição das tecnologias utilizadas                    | 1                   | 🔥          | 100%     |
+| Criação da documentação no Git                          | 16                  | -           | 70%      |
+| Diagramação das telas (UX Design)                       | 16                  | -           | 0%       |
+| Configuração do ambiente de QA e produção               | 5                   | -           | 0%       |
+| Desenvolvimento do backend                              | 21                  | -           | 0%       |
+| Desenvolvimento do frontend                             | 21                  | -           | 0%       |
+| Integração do backend com o frontend                    | 21                  | -           | 0%       |
+
+### Significados dos esforços
+
+-   **Esforço 1** - Representa 2 horas.
+-   **sforço 5** - Representa 10 horas.
+-   **Esforço 21** - Representa horas não determinadas.
 
 ## Backend
 
