@@ -10,9 +10,11 @@
 
 O registro de ponto ocorre geralmente sempre nos mesmos horários por todos os funcionários de uma empresa, gerando um stress no servidor de banco de dados, com isso, a técnica de utilização de filas se enquandra como uma solução para resolver o devido problema.
 
-## Autor
+## Autores
 
-👉 <a href="https://www.linkedin.com/in/venzel">Edivam Enéas de Almeida Júnior</a><br />
+| Foto                                      | Nome                                        | Ativo | Dt. inativo | Função                                  |
+| ----------------------------------------- | ------------------------------------------- | ----- | ----------- | --------------------------------------- |
+| ![Enéas](./media/images/venzel-thumb.png) | [Enéas Almeida](https://github.com/venzel/) | 🔥    | -           | Manager, Arquiteto, FullStack Developer |
 
 ## Links
 
