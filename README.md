@@ -55,6 +55,8 @@ O registro de ponto ocorre geralmente sempre nos mesmos horários por todos os f
 -   TypeORM / Postgres / MongoDB
 -   TDD com Jest
 
+👉 [Link para o backend](./backend/README.md)<br />
+
 ## Persistência dos dados
 
 Os bancos de dados do **Postgres** e **MongoDB** são provenientes de containers do docker. Utilizamos o Postgres para as persistências de sistema e o MongoDB para persistência de registro de notificações como demonstrado no diagrama de relacionamentos abaixo.
@@ -64,6 +66,8 @@ Os bancos de dados do **Postgres** e **MongoDB** são provenientes de containers
 -   VueJs
 -   Javascript
 
+👉 [Link para o frontend](./frontend/README.md)<br />
+
 ## Backend/Frontend
 
 -   Docker
@@ -72,14 +76,14 @@ Os bancos de dados do **Postgres** e **MongoDB** são provenientes de containers
 ## Técnicas
 
 -   Microserviços
--   Broker baseado no RabbitMq
+-   Filas com RabbitMq
+-   Authorization/Authentication
 -   Interceptors
 -   Transformers
+-   Validators
 -   Captura de errors com o Sentry
 -   Padronização de commits (Conventional commits)
--   Validators
 -   Swagger
--   Authorization/Authentication
 -   Upload
 
 ## Arquitetura
@@ -108,7 +112,7 @@ Permitem desacoplar vários componentes da aplicação. Cada componente somente 
 
 ![Sentry](./media/images/sentry.png)
 
-O **Sentry** é um serviço open source para logar erros de aplicações.
+O **Sentry** é um serviço open source para logar erros da aplicação.
 
 A aplicação é configurada para que sempre que ocorrer um erro do tipo 500, a exceção seja capturada e catalogada no Sentry, indicando exatamente a linha que ocorreu o erro, assim como dados de data e hora, tornando mais fácil a identificação de bugs, como mostra no exemplo abaixo:
 
