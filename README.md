@@ -230,7 +230,7 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 }
 ```
 
-## Endpoints da API Rest
+## Endpoints (Proxy - API Gateway)
 
 | Path                                                                                        | Método | Token | Role  | Descrição                  |
 | ------------------------------------------------------------------------------------------- | ------ | ----- | ----- | -------------------------- |
@@ -258,6 +258,10 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 | [/points](https://mypoint.venzel.com.br/points)                                             | POST   | 🔥    | USER  | Cria um ponto              |
 | **REPORT**                                                                                  |
 | [/reports](https://mypoint.venzel.com.br/reports)                                           | GET    | 🔥    | USER  | Exibe o relatório          |
+
+### Download do projeto no Insomnia
+
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=MyPoint&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fvenzel%2Fmypoint%2Fmaster%2F./medina/insomnia/insomnia_2022-04-03.json)
 
 ## Diagrama de caso de uso
 
