@@ -136,6 +136,12 @@ Os bancos de dados **Postgres** e **MongoDB** são provenientes de containers do
     <img src="./media/images/architeture-v1.png" alt="Arquitetura do sistema" width="760" />
 </p>
 
+### Versionamento do diagrama de caso de uso
+
+| Descrição                    | Data de modificação | Versão | Link de download                              |
+| ---------------------------- | ------------------- | ------ | --------------------------------------------- |
+| Primeira versão do documento | 01 de abril de 2022 | v1     | [Download](./media/images/architeture-v1.png) |
+
 ### Filas com o RabbitMQ
 
 <p align="center">
@@ -216,6 +222,12 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 <p align="center">
     <img src="./media/diagrams/diagram-v2.png" alt="Diagrama de relacionamentos" width="700" />
 </p>
+
+### Versionamento do diagrama de relacionamentos
+
+| Descrição                   | Data de modificação | Versão | Link de download                            |
+| --------------------------- | ------------------- | ------ | ------------------------------------------- |
+| Segunda versão do documento | 01 de abril de 2022 | v2     | [Download](./media/diagrams/diagram-v2.png) |
 
 ## JSON (Prova de conceito do diagrama de relacionamentos)
 
@@ -348,6 +360,12 @@ O **Swagger** é um framework composto por diversas ferramentas que, independent
 
 ![Diagrama de caso de uso](./media/diagrams/diagram-use-case-v1.png)
 
+### Versionamento do diagrama de caso de uso
+
+| Descrição                    | Data de modificação | Versão | Link de download                                     |
+| ---------------------------- | ------------------- | ------ | ---------------------------------------------------- |
+| Primeira versão do documento | 03 de abril de 2022 | v1     | [Download](./media/diagrams/diagram-use-case-v1.png) |
+
 ## Requisitos funcionais
 
 ### Usuário
@@ -434,12 +452,12 @@ O Gitflow é um fluxo de trabalho que auxilia o desenvolvimento contínuo de sof
 
 ```bash
 # Exemplo 1
-git commit -m "fix: corrige bug da listagem de usuários."
+git commit -m "🪲 fix: corrige bug da listagem de usuários."
 ```
 
 ```bash
 # Exemplo 2
-git commit -m "feat: cria o módulo de pontos."
+git commit -m "☂️ feat: cria o módulo de pontos."
 ```
 
 👉 [Mais informações](https://www.conventionalcommits.org/en/v1.0.0/)
