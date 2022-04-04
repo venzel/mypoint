@@ -28,3 +28,4 @@
 -   [x] Incrementor (Neil Smith)
 -   [x] Split HTML Attributes (Danny Connell)
 -   [x] Vetur (Pine Wu)
+-   [x] SonarLint (SonarSource)

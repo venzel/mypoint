@@ -381,33 +381,55 @@ O **Swagger** é um framework composto por diversas ferramentas que, independent
 
 ## CI/CD
 
-### Gitflow
+## Gitflow
 
-> O Gitflow é um fluxo de trabalho que auxilia o desenvolvimento contínuo de software entre a equipe envolvida.<br /><br />👉 <a href="https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow">Mais informações</a>
+O Gitflow é um fluxo de trabalho que auxilia o desenvolvimento contínuo de software entre a equipe envolvida.
 
-### Branchs
+👉 <a href="https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow">Mais informações</a>
+
+## Branchs
 
 <p align="center">
-    <img src="./media/images/gitflow-v1.png" alt="Gitflow" width="700" />
+    <img src="./media/images/gitflow-v1.png" alt="Gitflow" width="600" />
 </p>
 
 -   **user** - Eviará commits apenas para o próprio user, exemplo: tiago-feature-21.
 -   **develop** - Receberá os merges dos users. (Ambiente de QA)
 -   **master** - Receberá o merge da develop, final de uma release. (Ambiente de produção)
 
-### Diretrizes
+## Diretrizes
 
-\* A branch **master** é bloqueada para receber commits e pull requests dos usuários.
-
-\* A branch **master** representa o software em **produção**.
-
-\* A branch **develop** representa o software em **QA**.
-
-\* Fica determinado que sempre que um pull request na branch develop for aprovado ou reprovado, a branch do usuário **NÃO** será deletada, a fim de manter o git organizado.
+\* A branch **master** é bloqueada para receber commits e pull requests de usuários.<br /> \* A branch **master** representa o software em **produção**.<br /> \* A branch **develop** representa o software em **QA**.<br /> \* Fica determinado que sempre que um pull request na branch develop for aprovado ou reprovado, a branch do usuário **NÃO** será deletada, a fim de manter o git organizado.
 
 👉 [Documentação completa do gitflow - passo a passo](./gitflow.md)
 
-### Pipeline
+## Padronização de commits (Conventional Commits)
+
+**Conventional Commits** é uma convenção de mensagens de commits. Essa convenção descrevendo os recursos, correções e alterações importantes feitas nas mensagens.
+
+### Tags utilizadas:
+
+-   **build**: Alterações que afetam o sistema de compilação ou dependências externas (escopos de exemplo: gulp e npm);
+-   **ci**: Alterações em arquivos e scripts de configuração de CI (escopos de exemplo: Travis, Circle e Codeship);
+-   **fix**: Correção de bug para o usuário;
+-   **feat**: Desenvolvimento de uma nova funcionalidade;
+-   **docs**: Alterações na documentação;
+-   **perf**: Uma mudança de código que melhora o desempenho;
+-   **refactor**: Refatoração de um bloco de código;
+-   **style**: Formatação, falta de ponto e vírgula, etc;
+-   **test**: Adicionando testes ausentes ou corrigindo testes existentes.
+
+[Mais informações](https://www.conventionalcommits.org/en/v1.0.0/)
+
+## Lint com o SonarLint
+
+<p align="center">
+    <img src="./media/images/sonarlint.png" alt="SonarLint" width="270" />
+</p>
+
+O **Sonarlint** é um plugin detector, em tempo real, de códigos mal escritos, que geram dificuldades de manutenção, bugs e vulnerabilidades. O SonarLint possui também as seguintes categoriazações de códigos: Minor, Major, Critical e Blocker.
+
+## Pipeline
 
 O **Codeship** é um serviço de entrega contínua hospedado que se concentra na velocidade, confiabilidade e simplicidade. Em nossa arquitetura, o Codeship é integrado com o Github, ele identifica automaticamente quando um commit é realizado e dá sequência na entrega para os ambientes pré configurados, como demonstra na imagem abaixo:
 
@@ -430,8 +452,9 @@ O **Codeship** é um serviço de entrega contínua hospedado que se concentra na
 -
 -
 -
--   Documentar SonarLint
--   Documentar sobre o convetional commits
+-
+-   Prettier
+-
 -   Cortar a imagem do Sentry
 -   Criar o menu de diagrama de relacionamentos mais detalhado
 -   Criar o documento de plano de manutenção da atividade
