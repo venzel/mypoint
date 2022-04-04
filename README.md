@@ -419,7 +419,7 @@ O Gitflow é um fluxo de trabalho que auxilia o desenvolvimento contínuo de sof
 -   **style**: Formatação, falta de ponto e vírgula, etc;
 -   **test**: Adicionando testes ausentes ou corrigindo testes existentes.
 
-[Mais informações](https://www.conventionalcommits.org/en/v1.0.0/)
+👉 [Mais informações](https://www.conventionalcommits.org/en/v1.0.0/)
 
 ## Lint com o SonarLint
 
@@ -428,6 +428,8 @@ O Gitflow é um fluxo de trabalho que auxilia o desenvolvimento contínuo de sof
 </p>
 
 O **Sonarlint** é um plugin detector, em tempo real, de códigos mal escritos, que geram dificuldades de manutenção, bugs e vulnerabilidades. O SonarLint possui também as seguintes categoriazações de códigos: Minor, Major, Critical e Blocker.
+
+👉 [Mais informações](https://ilegra.com/blog/do-zero-sonarlint-para-que-serve-esse-plugin-e-por-que-voce-nao-vai-mais-viver-sem-ele/)
 
 ## Pipeline
 
