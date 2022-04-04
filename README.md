@@ -128,6 +128,7 @@ Os bancos de dados **Postgres** e **MongoDB** são provenientes de containers do
 -   Padronização de commits (Conventional commits)
 -   Swagger
 -   Upload
+-   Padronização de código (SonarLint)
 
 ## Arquitetura
 
@@ -397,7 +398,7 @@ O Gitflow é um fluxo de trabalho que auxilia o desenvolvimento contínuo de sof
 -   **develop** - Receberá os merges dos users. (Ambiente de QA)
 -   **master** - Receberá o merge da develop, final de uma release. (Ambiente de produção)
 
-## Diretrizes
+### Diretrizes
 
 \* A branch **master** é bloqueada para receber commits e pull requests de usuários.<br /> \* A branch **master** representa o software em **produção**.<br /> \* A branch **develop** representa o software em **QA**.<br /> \* Fica determinado que sempre que um pull request na branch develop for aprovado ou reprovado, a branch do usuário **NÃO** será deletada, a fim de manter o git organizado.
 
@@ -418,6 +419,18 @@ O Gitflow é um fluxo de trabalho que auxilia o desenvolvimento contínuo de sof
 -   **refactor**: Refatoração de um bloco de código;
 -   **style**: Formatação, falta de ponto e vírgula, etc;
 -   **test**: Adicionando testes ausentes ou corrigindo testes existentes.
+
+### Exemplos de commit utilizando a padronização
+
+```bash
+# Exemplo 1
+git commit -m "fix: corrige bug da listagem de usuários."
+```
+
+```bash
+# Exemplo 2
+git commit -m "feat: cria o módulo de pontos."
+```
 
 👉 [Mais informações](https://www.conventionalcommits.org/en/v1.0.0/)
 
