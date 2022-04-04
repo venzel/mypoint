@@ -235,9 +235,8 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 | --------------------------- | ------------------- | ------ | ------------------------------------------- |
 | Segunda versão do documento | 01 de abril de 2022 | v2     | [Download](./media/diagrams/diagram-v2.png) |
 
-👉 [Download do arquivo do Astah](./media/diagrams/diagram-relational-v1.asta)
-
-## JSON (Prova de conceito do diagrama de relacionamentos)
+<details>
+<summary>JSON (Prova de conceito do diagrama de relacionamentos)</summary>
 
 ```json
 {
@@ -319,6 +318,10 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
     ]
 }
 ```
+
+</details>
+
+👉 [Download do arquivo do Astah](./media/diagrams/diagram-relational-v1.asta)
 
 ## Endpoints (Proxy - API Gateway)
 
@@ -430,7 +433,7 @@ O Gitflow é um fluxo de trabalho que auxilia o desenvolvimento contínuo de sof
 
 ### Diretrizes
 
-\* 🔒 A branch **master** é bloqueada para receber commits de usuários.<br /> \* A branch **master** representa o software em **produção**.<br /> \* A branch **develop** representa o software em **QA**.<br /> \* Fica determinado que sempre que um pull request na branch develop for aprovado ou reprovado, a branch do usuário **NÃO** será deletada, a fim de manter o git organizado.
+\* A branch **master** 🔒 é bloqueada para receber commits de usuários.<br /> \* A branch **master** representa o software em **produção**.<br /> \* A branch **develop** representa o software em **QA**.<br /> \* Fica determinado que sempre que um pull request na branch develop for aprovado ou reprovado, a branch do usuário **NÃO** será deletada, a fim de manter o git organizado.
 
 👉 [Documentação completa do gitflow - passo a passo](./gitflow.md)
 
@@ -480,6 +483,28 @@ O **Sonarlint** é um plugin detector, em tempo real, de códigos mal escritos, 
 
 👉 [Mais informações](https://ilegra.com/blog/do-zero-sonarlint-para-que-serve-esse-plugin-e-por-que-voce-nao-vai-mais-viver-sem-ele/)
 
+## Prettier
+
+<p align="center">
+    <img src="./media/images/prettier.png" alt="Prettier" width="230" />
+</p>
+
+O Prettier é um formatador de código que visa ajudar os desenvolvedores a escrever aplicações que são mais fáceis de entender e mais uniformizadas entre as diversas formas de programar que existem.
+
+Arquivo **.prettierrc** na raiz do projeto.
+
+```json
+{
+    "semi": true,
+    "tabWidth": 4,
+    "printWidth": 90,
+    "singleQuote": true,
+    "trailingComma": "es5"
+}
+```
+
+👉 [Link oficial](https://prettier.io)
+
 ## Pipeline
 
 O **Codeship** é um serviço de entrega contínua hospedado que se concentra na velocidade, confiabilidade e simplicidade. Em nossa arquitetura, o Codeship é integrado com o Github, ele identifica automaticamente quando um commit é realizado e dá sequência na entrega para os ambientes pré configurados, como demonstra na imagem abaixo:
@@ -499,7 +524,7 @@ O **Codeship** é um serviço de entrega contínua hospedado que se concentra na
 -   Texto explicativo sobre os módulos dos microserviços
 -   Cortar a imagem de arquitetura
 -   Fazer um logotipo para o projeto
--   Prettier
+-
 -   Criar as notas de autoria do documento e alterações
 -   Cortar a imagem do Sentry
 -   Criar o menu de diagrama de relacionamentos mais detalhado
