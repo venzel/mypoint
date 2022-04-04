@@ -136,11 +136,11 @@ Os bancos de dados **Postgres** e **MongoDB** são provenientes de containers do
     <img src="./media/images/architeture-v1.png" alt="Arquitetura do sistema" width="760" />
 </p>
 
-### Versionamento do diagrama de caso de uso
-
 | Descrição                    | Data de modificação | Versão | Link de download                              |
 | ---------------------------- | ------------------- | ------ | --------------------------------------------- |
 | Primeira versão do documento | 01 de abril de 2022 | v1     | [Download](./media/images/architeture-v1.png) |
+
+👉 [Link do arquivo no Lucidchart](https://lucid.app/documents/view/a545d2ed-00e7-4a88-b0b3-d805b2e059f8)
 
 ### Filas com o RabbitMQ
 
@@ -223,11 +223,11 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
     <img src="./media/diagrams/diagram-v2.png" alt="Diagrama de relacionamentos" width="700" />
 </p>
 
-### Versionamento do diagrama de relacionamentos
-
 | Descrição                   | Data de modificação | Versão | Link de download                            |
 | --------------------------- | ------------------- | ------ | ------------------------------------------- |
 | Segunda versão do documento | 01 de abril de 2022 | v2     | [Download](./media/diagrams/diagram-v2.png) |
+
+👉 [Download do arquivo do Astah](./media/diagrams/diagram-relational-v1.asta)
 
 ## JSON (Prova de conceito do diagrama de relacionamentos)
 
@@ -360,11 +360,11 @@ O **Swagger** é um framework composto por diversas ferramentas que, independent
 
 ![Diagrama de caso de uso](./media/diagrams/diagram-use-case-v1.png)
 
-### Versionamento do diagrama de caso de uso
-
 | Descrição                    | Data de modificação | Versão | Link de download                                     |
 | ---------------------------- | ------------------- | ------ | ---------------------------------------------------- |
 | Primeira versão do documento | 03 de abril de 2022 | v1     | [Download](./media/diagrams/diagram-use-case-v1.png) |
+
+👉 [Download do arquivo do Astah](./media/diagrams/diagram-use-case-v1.asta)
 
 ## Requisitos funcionais
 
