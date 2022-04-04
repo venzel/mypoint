@@ -499,10 +499,10 @@ O **Sonarlint** é um plugin detector, em tempo real, de códigos mal escritos, 
 ## Prettier
 
 <p align="center">
-    <img src="./media/images/prettier.png" alt="Prettier" width="230" />
+    <img src="./media/images/prettier-v1.png" alt="Prettier" width="230" />
 </p>
 
-O Prettier é um formatador de código que visa ajudar os desenvolvedores a escrever aplicações que são mais fáceis de entender e mais uniformizadas entre as diversas formas de programar que existem.
+O **Prettier** é um formatador de código que visa ajudar os desenvolvedores a escrever aplicações que são mais fáceis de entender e mais uniformizadas entre as diversas formas de programar que existem.
 
 Arquivo **.prettierrc** na raiz do projeto.
 
