@@ -142,6 +142,8 @@ Os bancos de dados **Postgres** e **MongoDB** são provenientes de containers do
 
 👉 [Link do arquivo no Lucidchart](https://lucid.app/documents/view/a545d2ed-00e7-4a88-b0b3-d805b2e059f8)
 
+<hr />
+
 ### Filas com o RabbitMQ
 
 <p align="center">
