@@ -411,7 +411,7 @@ O Gitflow é um fluxo de trabalho que auxilia o desenvolvimento contínuo de sof
 ## Padronização de commits (Conventional Commits)
 
 <p align="center">
-    <img src="./media/images/branch-v1.png" alt="Branch" />
+    <img src="./media/icons/branch.svg" alt="Branch" width="100" />
 </p>
 
 **Conventional Commits** é uma convenção de mensagens de commits. Essa convenção descrevendo os recursos, correções e alterações importantes feitas nas mensagens.
