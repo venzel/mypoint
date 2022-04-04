@@ -236,7 +236,20 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 | Segunda versão do documento | 01 de abril de 2022 | v2     | [Download](./media/diagrams/diagram-v2.png) |
 
 <details>
-<summary>JSON (Prova de conceito do diagrama de relacionamentos)</summary>
+<summary>DIAGRAMA COMPLETO</summary>
+
+<p align="center">
+    <img src="./media/diagrams/diagram-v2.png" alt="Diagrama de relacionamentos" width="700" />
+</p>
+
+| Descrição                   | Data de modificação | Versão | Link de download                            |
+| --------------------------- | ------------------- | ------ | ------------------------------------------- |
+| Segunda versão do documento | 01 de abril de 2022 | v2     | [Download](./media/diagrams/diagram-v2.png) |
+
+</details>
+
+<details>
+<summary>JSON</summary>
 
 ```json
 {
@@ -527,7 +540,7 @@ O **Codeship** é um serviço de entrega contínua hospedado que se concentra na
 -
 -   Criar as notas de autoria do documento e alterações
 -   Cortar a imagem do Sentry
--   Criar o menu de diagrama de relacionamentos mais detalhado
+-
 -
 -   Criar o documento de plano de manutenção da atividade
 -   Criar as telas (UX design)
