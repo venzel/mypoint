@@ -154,11 +154,15 @@ Cada componente somente precisa se conectar ao broker, e pode permanecer sem nec
 
 A única coisa que precisa ser compartilhada entre os componentes é o protocolo de mensagens.
 
+<hr />
+
 ### Um broker se divide em:
 
 -   **Broker Server**: Processo do lado do servidor, responsável por gerenciar a publicação, assinatura e entrega das mensagens aos clientes.
 
 -   **Broker Client API**: É disponibilizado em um package específico para cada linguagem (JavaScript, Java, Go, etc), fornecendo uma API para acessar o broker, a partir de aplicações clientes.
+
+<hr />
 
 ### Modelo de comunicação entre Publishes/Subscribes
 
@@ -176,6 +180,8 @@ A única coisa que precisa ser compartilhada entre os componentes é o protocolo
 
 O **Cognito** é um serviço da **Amazon** fornece autenticação, autorização e gerenciamento de usuários para aplicações Web e móveis. Os usuários podem fazer login diretamente com um nome de usuário e uma senha ou por meio de terceiros, como o Facebook, a Amazon, o Google ou a Apple.
 
+<hr />
+
 ### Como funciona o Cognito?
 
 <p align="center">
@@ -187,6 +193,8 @@ O **Cognito** é um serviço da **Amazon** fornece autenticação, autorização
 **Etapa 3** - Por fim, o usuário da aplicação pode usar essas credenciais para acessar rotas privadas da API.
 
 👉 [Mais informações sobre o Cognito](https://docs.aws.amazon.com/pt_br/cognito/latest/developerguide/what-is-amazon-cognito.html)
+
+<hr />
 
 ### Estratégia de captura de erros com o Sentry
 
@@ -205,6 +213,8 @@ A aplicação é configurada para que sempre que ocorrer um erro do tipo 500, a 
 👉 [Mais informações sobre o Sentry](https://blog.locaweb.com.br/temas/codigo-aberto/voce-consegue-prever-os-bugs-de-sua-aplicacao/)<br />
 👉 [Link oficial do serviço](https://sentry.io)
 
+<hr />
+
 ### Arquitetura do backend: Feature by Package
 
 Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Driven Design)**, com o objetivo de tornar o código mais **flexível**, **escalável** e de **manutenção simples**.
@@ -216,6 +226,8 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 -   **SOLID**: Facilita a aplicação de todos os princípios do SOLID;
 -   **Git**: Melhora o gerenciamento dos commits, evitando conflitos e etc;
 -   **Testes**: Facilita o desenvolvimento de testes de unidade e integração.
+
+<hr />
 
 ## Diagrama de relacionamentos
 
@@ -477,6 +489,8 @@ O **Sonarlint** é um plugin detector, em tempo real, de códigos mal escritos, 
 O **Codeship** é um serviço de entrega contínua hospedado que se concentra na velocidade, confiabilidade e simplicidade. Em nossa arquitetura, o Codeship é integrado com o Github, ele identifica automaticamente quando um commit é realizado e dá sequência na entrega para os ambientes pré configurados, como demonstra na imagem abaixo:
 
 ![Gitflow](./media/images/deploy.png)
+
+👉 [Link do arquivo no Lucidchart](https://lucid.app/documents/view/e3f44502-6734-49bd-bb02-aa1b2c4c54da)
 
 ### Etapas
 
