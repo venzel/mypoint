@@ -336,7 +336,7 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 ### Swagger
 
 <p align="center">
-    <img src="./media/images/swagger.webp" alt="Swagger" title="Swagger" width="400" />
+    <img src="./media/images/swagger.webp" alt="Swagger" title="Swagger" width="300" />
 </p>
 
 O **Swagger** é um framework composto por diversas ferramentas que, independente da linguagem, auxilia a descrição, consumo e visualização de serviços de uma API REST.
@@ -411,22 +411,24 @@ O Gitflow é um fluxo de trabalho que auxilia o desenvolvimento contínuo de sof
 ## Padronização de commits (Conventional Commits)
 
 <p align="center">
-    <img src="./media/icons/branch.svg" alt="Branch" width="100" />
+    <img src="./media/icons/branch.svg" alt="Branch" width="150" />
 </p>
 
 **Conventional Commits** é uma convenção de mensagens de commits. Essa convenção descrevendo os recursos, correções e alterações importantes feitas nas mensagens.
 
-### Tags utilizadas:
+### Flags utilizadas:
 
--   **build**: Alterações que afetam o sistema de compilação ou dependências externas (escopos de exemplo: gulp e npm);
--   **ci**: Alterações em arquivos e scripts de configuração de CI (escopos de exemplo: Travis, Circle e Codeship);
--   **fix**: Correção de bug para o usuário;
--   **feat**: Desenvolvimento de uma nova funcionalidade;
--   **docs**: Alterações na documentação;
--   **perf**: Uma mudança de código que melhora o desempenho;
--   **refactor**: Refatoração de um bloco de código;
--   **style**: Formatação, falta de ponto e vírgula, etc;
--   **test**: Adicionando testes ausentes ou corrigindo testes existentes.
+| Ícone | Flag         | Descrição                                                                                               |
+| ----- | ------------ | ------------------------------------------------------------------------------------------------------- |
+| 🪲    | **fix**      | Correção de bug para o usuário                                                                          |
+| ☂️    | **feat**     | Desenvolvimento de uma nova funcionalidade                                                              |
+| 📃    | **docs**     | Alterações na documentação                                                                              |
+| ✂️    | **refactor** | Refatoração de um bloco de código                                                                       |
+| 💅    | **style**    | Formatação, falta de ponto e vírgula, etc                                                               |
+| 🔧    | **perf**     | Uma mudança de código que melhora o desempenho                                                          |
+| 🔨    | **build**    | Alterações que afetam o sistema de compilação ou dependências externas (escopos de exemplo: gulp e npm) |
+| 🪀    | **ci**       | Alterações em arquivos e scripts de configuração de CI (escopos de exemplo: Travis, Circle e Codeship)  |
+| 🧪    | **test**     | Adicionando testes ausentes ou corrigindo testes existentes                                             |
 
 ### Exemplos de commits utilizando a padronização
 
@@ -466,19 +468,13 @@ O **Codeship** é um serviço de entrega contínua hospedado que se concentra na
 
 ## Tópicos a serem desenvolvidos
 
--
 -   Texto explicativo sobre os módulos dos microserviços
--
--
 -   Cortar a imagem de arquitetura
 -   Fazer um logotipo para o projeto
--
--
--
--
 -   Prettier
--
+-   Criar as notas de autoria do documento e alterações
 -   Cortar a imagem do Sentry
 -   Criar o menu de diagrama de relacionamentos mais detalhado
+-
 -   Criar o documento de plano de manutenção da atividade
 -   Criar as telas (UX design)
