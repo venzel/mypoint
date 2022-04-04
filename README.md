@@ -109,7 +109,7 @@ Os bancos de dados **Postgres** e **MongoDB** são provenientes de containers do
 ## Backend/Frontend
 
 <p align="left">
-  <img src="./media/icons/docker.svg" alt="Docker" title="Docker" width="30" height="30" />
+  <img src="./media/icons/docker.svg" alt="Docker" title="Docker" width="40" height="40" />
   <img src="./media/icons/codeship.svg" alt="Codeship" title="Codeship" width="30" height="30" />
 </p>
 
@@ -125,10 +125,10 @@ Os bancos de dados **Postgres** e **MongoDB** são provenientes de containers do
 -   Transformers
 -   Validators
 -   Captura de errors com o Sentry
--   Padronização de commits (Conventional commits)
+-   Padronização de commits (**Conventional commits**)
 -   Swagger
 -   Upload
--   Padronização de código (SonarLint)
+-   Padronização de código (**SonarLint**)
 
 ## Arquitetura
 
@@ -142,7 +142,11 @@ Os bancos de dados **Postgres** e **MongoDB** são provenientes de containers do
     <img src="./media/images/rabbitmq-logo.png" alt="RabbitMq" title="RabbitMq" width="300" />
 </p>
 
-A utilização de filas permitem desacoplar vários componentes da aplicação. Cada componente somente precisa se conectar ao broker, e pode permanecer sem necessidade de conhecer a existência, localização ou detalhes da implementação de outros componentes. A única coisa que precisa ser compartilhada entre os componentes é o protocolo de mensagens.
+A utilização de filas permitem desacoplar vários componentes da aplicação.
+
+Cada componente somente precisa se conectar ao broker, e pode permanecer sem necessidade de conhecer a existência, localização ou detalhes da implementação de outros componentes.
+
+A única coisa que precisa ser compartilhada entre os componentes é o protocolo de mensagens.
 
 ### Um broker se divide em:
 
@@ -420,7 +424,7 @@ O Gitflow é um fluxo de trabalho que auxilia o desenvolvimento contínuo de sof
 -   **style**: Formatação, falta de ponto e vírgula, etc;
 -   **test**: Adicionando testes ausentes ou corrigindo testes existentes.
 
-### Exemplos de commit utilizando a padronização
+### Exemplos de commits utilizando a padronização
 
 ```bash
 # Exemplo 1
