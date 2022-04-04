@@ -156,15 +156,11 @@ Cada componente somente precisa se conectar ao broker, e pode permanecer sem nec
 
 A única coisa que precisa ser compartilhada entre os componentes é o protocolo de mensagens.
 
-<hr />
-
 ### Um broker se divide em:
 
 -   **Broker Server**: Processo do lado do servidor, responsável por gerenciar a publicação, assinatura e entrega das mensagens aos clientes.
 
 -   **Broker Client API**: É disponibilizado em um package específico para cada linguagem (JavaScript, Java, Go, etc), fornecendo uma API para acessar o broker, a partir de aplicações clientes.
-
-<hr />
 
 ### Modelo de comunicação entre Publishes/Subscribes
 
@@ -228,8 +224,6 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 -   **SOLID**: Facilita a aplicação de todos os princípios do SOLID;
 -   **Git**: Melhora o gerenciamento dos commits, evitando conflitos e etc;
 -   **Testes**: Facilita o desenvolvimento de testes de unidade e integração.
-
-<hr />
 
 ## Diagrama de relacionamentos
 
@@ -430,13 +424,13 @@ O Gitflow é um fluxo de trabalho que auxilia o desenvolvimento contínuo de sof
     <img src="./media/images/gitflow-v1.png" alt="Gitflow" width="600" />
 </p>
 
--   **user** - Eviará commits apenas para o próprio user, exemplo: tiago-feature-21.
--   **develop** - Receberá os merges dos users. (Ambiente de QA)
--   **master** - Receberá o merge da develop, final de uma release. (Ambiente de produção)
+-   **user** - Envia commits apenas para o próprio user, exemplo: tiago-feature-21.
+-   **develop** - Recebe merges dos users. (**Ambiente de QA**)
+-   **master** 🔒 - Recebe merges da develop, no final de uma release. (**Ambiente de produção**)
 
 ### Diretrizes
 
-\* A branch **master** é bloqueada para receber commits de usuários.<br /> \* A branch **master** representa o software em **produção**.<br /> \* A branch **develop** representa o software em **QA**.<br /> \* Fica determinado que sempre que um pull request na branch develop for aprovado ou reprovado, a branch do usuário **NÃO** será deletada, a fim de manter o git organizado.
+\* 🔒 A branch **master** é bloqueada para receber commits de usuários.<br /> \* A branch **master** representa o software em **produção**.<br /> \* A branch **develop** representa o software em **QA**.<br /> \* Fica determinado que sempre que um pull request na branch develop for aprovado ou reprovado, a branch do usuário **NÃO** será deletada, a fim de manter o git organizado.
 
 👉 [Documentação completa do gitflow - passo a passo](./gitflow.md)
 
