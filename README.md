@@ -136,7 +136,7 @@ Os bancos de dados **Postgres** e **MongoDB** são provenientes de containers do
 ### Filas com o RabbitMQ
 
 <p align="center">
-    <img src="./media/images/rabbitmq-logo.png" alt="RabbitMq" title="RabbitMq" width="200" />
+    <img src="./media/images/rabbitmq-logo.png" alt="RabbitMq" title="RabbitMq" width="300" />
 </p>
 
 A utilização de filas permitem desacoplar vários componentes da aplicação. Cada componente somente precisa se conectar ao broker, e pode permanecer sem necessidade de conhecer a existência, localização ou detalhes da implementação de outros componentes. A única coisa que precisa ser compartilhada entre os componentes é o protocolo de mensagens.
@@ -149,11 +149,15 @@ A utilização de filas permitem desacoplar vários componentes da aplicação. 
 
 ### Modelo de comunicação entre Publishes/Subscribes
 
-![Diagrama de bloco](./media/images/broker-1.png)
+<p align="center">
+    <img src="./media/images/broker-1.png" alt="Diagrama de bloco" width="500" />
+</p>
 
 ### Modelo de comunicação entre Request/Response
 
-![Diagrama de bloco](./media/images/broker-2.png)
+<p align="center">
+    <img src="./media/images/broker-2.png" alt="Diagrama de bloco" width="500" />
+</p>
 
 ### Autenticação e Autorização com o Cognito
 
@@ -417,6 +421,7 @@ O **Codeship** é um serviço de entrega contínua hospedado que se concentra na
 -   Fazer um logotipo para o projeto
 -
 -
+-   Fonte JetBrains Mono Light para download no git
 -   Documentar SonarLint
 -   Documentar sobre o convetional commits
 -   Cortar a imagem do Sentry
