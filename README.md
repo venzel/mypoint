@@ -187,7 +187,9 @@ O **Sentry** é um serviço open source para logar erros da aplicação.
 
 A aplicação é configurada para que sempre que ocorrer um erro do tipo 500, a exceção seja capturada e catalogada no Sentry, indicando exatamente a linha que ocorreu o erro, assim como dados de data e hora, tornando mais fácil a identificação de bugs, como mostra no exemplo abaixo:
 
-![Sentry](./media/images/sentry-erro.png)
+<p align="center">
+    <img src="./media/images/sentry-erro.png" alt="Sentry erro" width="800" />
+</p>
 
 👉 [Mais informações sobre o Sentry](https://blog.locaweb.com.br/temas/codigo-aberto/voce-consegue-prever-os-bugs-de-sua-aplicacao/)<br />
 👉 [Link oficial do serviço](https://sentry.io)
@@ -206,7 +208,9 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 
 ## Diagrama de relacionamentos
 
-![Diagrama de relacionamentos](./media/diagrams/diagram-v2.png)
+<p align="center">
+    <img src="./media/diagrams/diagram-v2.png" alt="Diagrama de relacionamentos" width="800" />
+</p>
 
 ## JSON (Prova de conceito do diagrama de relacionamentos)
 
