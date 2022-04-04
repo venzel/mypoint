@@ -387,7 +387,9 @@ O **Swagger** é um framework composto por diversas ferramentas que, independent
 
 ### Branchs
 
-![Gitflow](./media/images/gitflow-v1.png)
+<p align="center">
+    <img src="./media/images/gitflow-v1.png" alt="Gitflow" width="800" />
+</p>
 
 -   **user** - Eviará commits apenas para o próprio user, exemplo: tiago-feature-21.
 -   **develop** - Receberá os merges dos users. (Ambiente de QA)
@@ -427,7 +429,7 @@ O **Codeship** é um serviço de entrega contínua hospedado que se concentra na
 -   Fazer um logotipo para o projeto
 -
 -
--   Fonte JetBrains Mono Light para download no git
+-
 -   Documentar SonarLint
 -   Documentar sobre o convetional commits
 -   Cortar a imagem do Sentry
