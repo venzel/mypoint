@@ -132,7 +132,7 @@ Os bancos de dados **Postgres** e **MongoDB** são provenientes de containers do
 ## Arquitetura
 
 <p align="center">
-    <img src="./media/images/architeture-v1.png" alt="Arquitetura do sistema" width="700" />
+    <img src="./media/images/architeture-v1.png" alt="Arquitetura do sistema" width="800" />
 </p>
 
 ### Filas com o RabbitMQ
@@ -152,13 +152,13 @@ A utilização de filas permitem desacoplar vários componentes da aplicação. 
 ### Modelo de comunicação entre Publishes/Subscribes
 
 <p align="center">
-    <img src="./media/images/broker-1.png" alt="Diagrama de bloco" width="700" />
+    <img src="./media/images/broker-1.png" alt="Diagrama de bloco" width="800" />
 </p>
 
 ### Modelo de comunicação entre Request/Response
 
 <p align="center">
-    <img src="./media/images/broker-2.png" alt="Diagrama de bloco" width="700" />
+    <img src="./media/images/broker-2.png" alt="Diagrama de bloco" width="800" />
 </p>
 
 ### Autenticação e Autorização com o Cognito
