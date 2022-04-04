@@ -404,11 +404,15 @@ O Gitflow é um fluxo de trabalho que auxilia o desenvolvimento contínuo de sof
 
 ### Diretrizes
 
-\* A branch **master** é bloqueada para receber commits e pull requests de usuários.<br /> \* A branch **master** representa o software em **produção**.<br /> \* A branch **develop** representa o software em **QA**.<br /> \* Fica determinado que sempre que um pull request na branch develop for aprovado ou reprovado, a branch do usuário **NÃO** será deletada, a fim de manter o git organizado.
+\* A branch **master** é bloqueada para receber commits de usuários.<br /> \* A branch **master** representa o software em **produção**.<br /> \* A branch **develop** representa o software em **QA**.<br /> \* Fica determinado que sempre que um pull request na branch develop for aprovado ou reprovado, a branch do usuário **NÃO** será deletada, a fim de manter o git organizado.
 
 👉 [Documentação completa do gitflow - passo a passo](./gitflow.md)
 
 ## Padronização de commits (Conventional Commits)
+
+<p align="center">
+    <img src="./media/images/branch.png" alt="Branch" />
+</p>
 
 **Conventional Commits** é uma convenção de mensagens de commits. Essa convenção descrevendo os recursos, correções e alterações importantes feitas nas mensagens.
 
@@ -441,7 +445,7 @@ git commit -m "feat: cria o módulo de pontos."
 ## Lint com o SonarLint
 
 <p align="center">
-    <img src="./media/images/sonarlint.png" alt="SonarLint" width="270" />
+    <img src="./media/images/sonarlint.png" alt="SonarLint" width="230" />
 </p>
 
 O **Sonarlint** é um plugin detector, em tempo real, de códigos mal escritos, que geram dificuldades de manutenção, bugs e vulnerabilidades. O SonarLint possui também as seguintes categoriazações de códigos: Minor, Major, Critical e Blocker.
