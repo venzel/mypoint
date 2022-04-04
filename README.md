@@ -132,7 +132,7 @@ Os bancos de dados **Postgres** e **MongoDB** são provenientes de containers do
 ## Arquitetura
 
 <p align="center">
-    <img src="./media/images/architeture-v1.png" alt="Arquitetura do sistema" width="860" />
+    <img src="./media/images/architeture-v1.png" alt="Arquitetura do sistema" width="760" />
 </p>
 
 ### Filas com o RabbitMQ
@@ -152,13 +152,13 @@ A utilização de filas permitem desacoplar vários componentes da aplicação. 
 ### Modelo de comunicação entre Publishes/Subscribes
 
 <p align="center">
-    <img src="./media/images/broker-1.png" alt="Diagrama de bloco" width="740" />
+    <img src="./media/images/broker-1.png" alt="Diagrama de bloco" width="640" />
 </p>
 
 ### Modelo de comunicação entre Request/Response
 
 <p align="center">
-    <img src="./media/images/broker-2.png" alt="Diagrama de bloco" width="800" />
+    <img src="./media/images/broker-2.png" alt="Diagrama de bloco" width="700" />
 </p>
 
 ### Autenticação e Autorização com o Cognito
@@ -188,7 +188,7 @@ O **Sentry** é um serviço open source para logar erros da aplicação.
 A aplicação é configurada para que sempre que ocorrer um erro do tipo 500, a exceção seja capturada e catalogada no Sentry, indicando exatamente a linha que ocorreu o erro, assim como dados de data e hora, tornando mais fácil a identificação de bugs, como mostra no exemplo abaixo:
 
 <p align="center">
-    <img src="./media/images/sentry-erro.png" alt="Sentry erro" width="800" />
+    <img src="./media/images/sentry-erro.png" alt="Sentry erro" width="700" />
 </p>
 
 👉 [Mais informações sobre o Sentry](https://blog.locaweb.com.br/temas/codigo-aberto/voce-consegue-prever-os-bugs-de-sua-aplicacao/)<br />
@@ -209,7 +209,7 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 ## Diagrama de relacionamentos
 
 <p align="center">
-    <img src="./media/diagrams/diagram-v2.png" alt="Diagrama de relacionamentos" width="800" />
+    <img src="./media/diagrams/diagram-v2.png" alt="Diagrama de relacionamentos" width="700" />
 </p>
 
 ## JSON (Prova de conceito do diagrama de relacionamentos)
@@ -388,7 +388,7 @@ O **Swagger** é um framework composto por diversas ferramentas que, independent
 ### Branchs
 
 <p align="center">
-    <img src="./media/images/gitflow-v1.png" alt="Gitflow" width="800" />
+    <img src="./media/images/gitflow-v1.png" alt="Gitflow" width="700" />
 </p>
 
 -   **user** - Eviará commits apenas para o próprio user, exemplo: tiago-feature-21.
