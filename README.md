@@ -174,11 +174,11 @@ A única coisa que precisa ser compartilhada entre os componentes é o protocolo
     <img src="./media/images/broker-2.png" alt="Diagrama de bloco" width="700" />
 </p>
 
-### Autenticação e Autorização com o Cognito
+<hr />
+
+### Cognito (Autenticação e Autorização)
 
 O **Cognito** é um serviço da **Amazon** fornece autenticação, autorização e gerenciamento de usuários para aplicações Web e móveis. Os usuários podem fazer login diretamente com um nome de usuário e uma senha ou por meio de terceiros, como o Facebook, a Amazon, o Google ou a Apple.
-
-<hr />
 
 ### Como funciona o Cognito?
 
