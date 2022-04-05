@@ -128,11 +128,13 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
   <img src="./media/icons/nginx.svg" alt="Docker" title="Nginx" width="30" height="30" />
   <img src="./media/images/pm2.png" alt="PM2" title="PM2" height="30" />
   <img src="./media/icons/docker.svg" alt="Docker" title="Docker" width="30" height="30" />
+  <img src="./media/images/certbot.png" alt="PM2" title="Certbot" height="30" />
 </p>
 
 -   [Nginx](./media/faq/nginx-install-and-configure.md)
 -   [PM2](./media/faq/pm2-configurations.md)
 -   [Docker](./media/faq/docker-commands.md)
+-   [Certbot](./media/faq/certbot.md)
 
 ## Recursos e técnicas utilizadas
 
@@ -410,7 +412,8 @@ O **Swagger** é um framework composto por diversas ferramentas que, independent
 
 👉 [Download do arquivo do Astah](./media/diagrams/diagram-use-case-v1.asta)
 
-## Requisitos funcionais
+<details>
+<summary>Requisitos funcionais</summary>
 
 ### Usuário
 
@@ -445,6 +448,10 @@ O **Swagger** é um framework composto por diversas ferramentas que, independent
 ### Usuário/Relatório
 
 1. O **USUÁRIO** deve poder **gerar um relatório de pontos**.
+
+</details>
+
+<hr />
 
 ## CI/CD
 
