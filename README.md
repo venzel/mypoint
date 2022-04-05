@@ -152,6 +152,8 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
 -   Swagger
 -   Upload
 -   Padronização de código (**Sonarlint**)
+-   Yarn como gerenciamento de pacotes
+-   Makefile
 
 ## Arquitetura
 
@@ -417,7 +419,8 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 O **Swagger** é um framework composto por diversas ferramentas que, independente da linguagem, auxilia a descrição, consumo e visualização de serviços de uma API REST.
 
 👉 [Link do Swagger de QA](http://mypoint-qa.venzel.com.br/api)<br />
-👉 [Link do Swagger de Produção](http://mypoint.venzel.com.br/api)
+👉 [Link do Swagger de Produção](http://mypoint.venzel.com.br/api)<br />
+👉 [Link oficial da documentação do Swagger](https://swagger.io/docs/)
 
 ## Diagrama de caso de uso
 
@@ -577,5 +580,16 @@ O **Codeship** é um serviço de entrega contínua hospedado que se concentra na
 3 - **Build**: Nessa etapa é realizado o build da aplicação.
 
 <hr />
+
+<details>
+<summary>Fontes de referências</summary>
+
+👉 [Curso na Udemy sobre NestJs, RabbitMQ e Cognito](https://www.udemy.com/course/construindo-um-backend-escalavel-com-nestjs-aws-e-pivotalws)<br />
+👉 [Curso na Udemy sobre VueJs e Vuetify](https://www.udemy.com/course/vue-js-guia-completo/)<br />
+👉 [Github privado sobre Vuetify](https://github.com/venzel/vuejs_vuetify)<br />
+👉 [Curso na Udemy sobre VueJs](https://www.udemy.com/course/vue-js-completo/)
+👉 [Exemplo de uma API Rest utilizando Wiston, Interceptors, Tests](https://github.com/venzel/auth-nest)<br />
+
+</details>
 
 © Documento de autoria de <a href="https://github.com/venzel/">Enéas Almeida</a>.
