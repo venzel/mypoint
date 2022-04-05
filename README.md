@@ -588,7 +588,7 @@ O **Codeship** é um serviço de entrega contínua hospedado que se concentra na
 👉 [Curso na Udemy sobre VueJs e Vuetify](https://www.udemy.com/course/vue-js-guia-completo/)<br />
 👉 [Github privado sobre Vuetify](https://github.com/venzel/vuejs_vuetify)<br />
 👉 [Curso na Udemy sobre VueJs](https://www.udemy.com/course/vue-js-completo/)<br />
-👉 [Artigo na Medium criando uma API Rest em NestJs](hhttps://medium.com/@iago.maiasilva/construindo-uma-api-com-nestjs-postgresql-e-docker-parte-1-criando-nosso-primeiro-endpoint-248d4b8ecc9c)<br />
+👉 [Artigo na Medium criando uma API Rest em NestJs](https://medium.com/@iago.maiasilva/construindo-uma-api-com-nestjs-postgresql-e-docker-parte-1-criando-nosso-primeiro-endpoint-248d4b8ecc9c)<br />
 👉 [Exemplo de uma API Rest NestJs de Autorização e Autenticação com JWT](https://github.com/venzel/auth-nest)
 
 </details>
