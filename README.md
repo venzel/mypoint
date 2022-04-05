@@ -235,16 +235,20 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 | --------------------------- | ------------------- | ------ | ------------------------------------------- |
 | Segunda versão do documento | 01 de abril de 2022 | v2     | [Download](./media/diagrams/diagram-v2.png) |
 
+👉 [Download do arquivo do Astah](./media/diagrams/diagram-relational-v1.asta)
+
 <details>
-<summary>DIAGRAMA COMPLETO</summary>
+<summary>DIAGRAMA DETALHADO</summary>
 
 <p align="center">
-    <img src="./media/diagrams/diagram-v2.png" alt="Diagrama de relacionamentos" width="700" />
+    <img src="./media/diagrams/diagram-full-v1.png" alt="Diagrama de relacionamentos" width="700" />
 </p>
 
-| Descrição                   | Data de modificação | Versão | Link de download                            |
-| --------------------------- | ------------------- | ------ | ------------------------------------------- |
-| Segunda versão do documento | 01 de abril de 2022 | v2     | [Download](./media/diagrams/diagram-v2.png) |
+| Descrição                    | Data de modificação | Versão | Link de download                                 |
+| ---------------------------- | ------------------- | ------ | ------------------------------------------------ |
+| Primeira versão do documento | 04 de abril de 2022 | v1     | [Download](./media/diagrams/diagram-full-v1.png) |
+
+👉 [Download do arquivo do Astah](./media/diagrams/diagram-full-v1.asta)
 
 </details>
 
@@ -334,8 +338,6 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 
 </details>
 
-👉 [Download do arquivo do Astah](./media/diagrams/diagram-relational-v1.asta)
-
 ## Endpoints (Proxy - API Gateway)
 
 | Path                                                                                        | Método | Token | Role  | Descrição                  |
@@ -372,7 +374,7 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 ### Swagger
 
 <p align="center">
-    <img src="./media/images/swagger.webp" alt="Swagger" title="Swagger" width="300" />
+    <img src="./media/images/swagger.webp" alt="Swagger" title="Swagger" width="250" />
 </p>
 
 O **Swagger** é um framework composto por diversas ferramentas que, independente da linguagem, auxilia a descrição, consumo e visualização de serviços de uma API REST.
@@ -532,15 +534,6 @@ O **Codeship** é um serviço de entrega contínua hospedado que se concentra na
 2 - **Test**: Nessa etapa é realizado os testes unitários;<br />
 3 - **Deploy**: Nessa etapa é realizado o deploy da apliacação.
 
-## Tópicos a serem desenvolvidos
+<hr />
 
--   Texto explicativo sobre os módulos dos microserviços
--   Cortar a imagem de arquitetura
--   Fazer um logotipo para o projeto
--
--   Criar as notas de autoria do documento e alterações
--   Cortar a imagem do Sentry
--
--
--   Criar o documento de plano de manutenção da atividade
--   Criar as telas (UX design)
+© Documento de autoria de <a href="https://github.com/venzel/">Enéas Almeida</a>.
