@@ -60,9 +60,12 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
 
 ### Significados dos esforços na escala Fibonacci
 
--   **Esforço 1** - Representam 2 horas.
--   **Esforço 5** - Representam 10 horas.
+-   **Esforço 1** - Representa >= 1 hora e <= 7 horas.
+-   **Esforço 3** - Representa > 21 horas e <= 35 horas.
+-   **Esforço 5** - Representa > 35 horas e <= 42 horas
 -   **Esforço 21** - Representam horas não determinadas.
+
+👉 [Mais sobre a metdologia de esforço Fibonaci](./FIBONACCI.md)
 
 ## Backend
 
@@ -463,7 +466,7 @@ O Gitflow é um fluxo de trabalho que auxilia o desenvolvimento contínuo de sof
 
 ### Diretrizes
 
-\* A branch **master** 🔒 é bloqueada para receber commits de usuários.<br /> \* A branch **master** representa o software em **produção**.<br /> \* A branch **develop** representa o software em **QA**.<br /> \* Fica determinado que sempre que um pull request na branch develop for aprovado ou reprovado, a branch do usuário **NÃO** será deletada, a fim de manter o git organizado.
+\* A branch **master** 🔒 é bloqueada para receber commits de usuários.<br /> \* A branch **master** representa o software em **produção**.<br /> \* A branch **develop** representa o software em **QA**.<br /> \* Fica determinado que sempre que um merge request na branch develop for aprovado ou reprovado, a branch do usuário **NÃO** será deletada, a fim de manter o histórico de branchs.
 
 👉 [Documentação completa do gitflow - passo a passo](./gitflow.md)
 
