@@ -105,10 +105,12 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
 
 <p align="left">
   <img src="https://cdn.worldvectorlogo.com/logos/vue-9.svg" alt="VueJs" title="VueJs" width="30" height="30" />
+  <img src="./media/icons/vuetify.svg" alt="Vuetify" title="Vuetify" height="30" />
   <img src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg" alt="Javascript" title="Javascript" width="30" height="40" /> 
 </p>
 
 -   VueJs
+-   [Vuetify](https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides)
 -   Javascript
 
 👉 [Link para o git do frontend](./frontend/README.md)<br />
