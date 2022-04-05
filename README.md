@@ -51,8 +51,8 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
 | Levantamento do problema a ser resolvido **(Briefing)** | 3                   | 🔥          | 100%     |
 | Levantamento dos requisitos funcionais                  | 1                   | 🔥          | 100%     |
 | Definição das tecnologias utilizadas                    | 1                   | 🔥          | 100%     |
-| Criação da documentação no Git                          | 16                  | -           | 70%      |
-| Diagramação das telas (UX Design)                       | 16                  | -           | 0%       |
+| Criação da documentação no Git                          | 13                  | -           | 70%      |
+| Diagramação das telas (UX Design)                       | 13                  | -           | 0%       |
 | Configuração do ambiente de QA e produção               | 5                   | -           | 0%       |
 | Desenvolvimento do backend                              | 21                  | -           | 0%       |
 | Desenvolvimento do frontend                             | 21                  | -           | 0%       |
@@ -62,10 +62,11 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
 
 -   **Esforço 1** - Representa >= 1 hora e <= 7 horas.
 -   **Esforço 3** - Representa > 21 horas e <= 35 horas.
--   **Esforço 5** - Representa > 35 horas e <= 42 horas
+-   **Esforço 5** - Representa > 35 horas e <= 42 horas.
+-   **Esforço 13** - Representa > 49 horas e <= 70 horas.
 -   **Esforço 21** - Representam horas não determinadas.
 
-👉 [Mais sobre a metdologia de esforço Fibonaci](./FIBONACCI.md)
+👉 [Mais sobre a metodologia de esforço Fibonaci](./FIBONACCI.md)
 
 ## Backend
 
@@ -358,7 +359,7 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 
 </details>
 
-## Endpoints (Proxy - API Gateway)
+## Endpoints do API Gateway (Proxy)
 
 | Path                                                                                        | Método | Token | Role  | Descrição                  |
 | ------------------------------------------------------------------------------------------- | ------ | ----- | ----- | -------------------------- |
@@ -388,11 +389,11 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 | [/reports](https://mypoint.venzel.com.br/reports)                                           | GET    | 🔥    | USER  | Exibe o relatório          |
 
 <details>
-<summary>ENDPOINTS DA API REST</summary>
+<summary>Endpoints da API Rest</summary>
 </details>
 
 <details>
-<summary>ENDPOINTS DO FRONTEND</summary>
+<summary>Endponts do Frontend</summary>
 </details>
 
 <hr />
