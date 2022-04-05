@@ -233,7 +233,7 @@ A aplicação é configurada para que sempre que ocorrer um erro do tipo 500, a 
 
 <hr />
 
-### Arquitetura do backend: Feature by Package
+## Arquitetura do backend: Feature by Package
 
 Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Driven Design)**, com o objetivo de tornar o código mais **flexível**, **escalável** e de **manutenção simples**.
 
@@ -387,11 +387,21 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 | **REPORT**                                                                                  |
 | [/reports](https://mypoint.venzel.com.br/reports)                                           | GET    | 🔥    | USER  | Exibe o relatório          |
 
+<details>
+<summary>ENDPOINTS DA API REST</summary>
+</details>
+
+<details>
+<summary>ENDPOINTS DO FRONTEND</summary>
+</details>
+
+<hr />
+
 ### Download do projeto do Insomnia
 
 [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=MyPoint&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fvenzel%2Fmypoint%2Fmaster%2F./media/insomnia/insomnia_2022-04-03.json)
 
-### Swagger
+## Swagger
 
 <p align="center">
     <img src="./media/images/swagger.webp" alt="Swagger" title="Swagger" width="250" />
@@ -487,17 +497,17 @@ O Gitflow é um fluxo de trabalho que auxilia o desenvolvimento contínuo de sof
 
 ### Flags utilizadas:
 
-| Ícone | Flag         | Descrição                                                                                               |
-| ----- | ------------ | ------------------------------------------------------------------------------------------------------- |
-| 🪲    | **fix**      | Correção de bug para o usuário                                                                          |
-| ☂️    | **feat**     | Desenvolvimento de uma nova funcionalidade                                                              |
-| 📃    | **docs**     | Alterações na documentação                                                                              |
-| ✂️    | **refactor** | Refatoração de um bloco de código                                                                       |
-| 💅    | **style**    | Formatação, falta de ponto e vírgula, etc                                                               |
-| 🔧    | **perf**     | Uma mudança de código que melhora o desempenho                                                          |
-| 🔨    | **build**    | Alterações que afetam o sistema de compilação ou dependências externas (escopos de exemplo: gulp e npm) |
-| 🪀    | **ci**       | Alterações em arquivos e scripts de configuração de CI (escopos de exemplo: Travis, Circle e Codeship)  |
-| 🧪    | **test**     | Adicionando testes ausentes ou corrigindo testes existentes                                             |
+| Ícone | Flag         | Descrição                                                                                                |
+| ----- | ------------ | -------------------------------------------------------------------------------------------------------- |
+| 🪲    | **fix**      | Correção de bug para o usuário.                                                                          |
+| ☂️    | **feat**     | Desenvolvimento de uma nova funcionalidade.                                                              |
+| 📃    | **docs**     | Alterações na documentação.                                                                              |
+| ✂️    | **refactor** | Refatoração de um bloco de código.                                                                       |
+| 💅    | **style**    | Formatação, falta de ponto e vírgula, etc.                                                               |
+| 🔧    | **perf**     | Uma mudança de código que melhora o desempenho.                                                          |
+| 🔨    | **build**    | Alterações que afetam o sistema de compilação ou dependências externas (escopos de exemplo: gulp e npm). |
+| 🪀    | **ci**       | Alterações em arquivos e scripts de configuração de CI (escopos de exemplo: Travis, Circle e Codeship).  |
+| 🧪    | **test**     | Adicionando testes ausentes ou corrigindo testes existentes.                                             |
 
 ### Exemplos de commits utilizando a padronização
 
