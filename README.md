@@ -4,7 +4,7 @@
 
 ## 📜 Sobre
 
-> **MyPoint** é um sistema de registro de pontos de funcionários, utilizando filas com o RabbitMq.<br /> <a href="http://mypoint.venzel.com.br/api">👉 MyPoint</a>
+> **MyPoint** é um sistema de registro de pontos de funcionários, utilizando filas com o RabbitMQ.<br /> <a href="http://mypoint.venzel.com.br/api">👉 MyPoint</a>
 
 ## Qual problema resolve?
 
@@ -60,9 +60,9 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
 
 ### Significados dos esforços na escala Fibonacci
 
--   **Esforço 1** - Representa 2 horas.
--   **Esforço 5** - Representa 10 horas.
--   **Esforço 21** - Representa horas não determinadas.
+-   **Esforço 1** - Representam 2 horas.
+-   **Esforço 5** - Representam 10 horas.
+-   **Esforço 21** - Representam horas não determinadas.
 
 ## Backend
 
@@ -76,11 +76,11 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
 </p>
 
 -   NestJs
--   RabbitMq
--   Cognito (AWS)
+-   RabbitMQ
+-   Cognito (**AWS**)
 -   Typescript / Javascript
 -   TypeORM / Postgres / MongoDB
--   TDD com Jest
+-   Testes com métricas de coverages (**Jest**)
 
 👉 [Link para o git do backend](./backend/README.md)<br />
 
@@ -92,7 +92,10 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
   <img src="./media/icons/docker.svg" alt="Docker" title="Docker" width="40" height="40" />
 </p>
 
-Os bancos de dados **Postgres** e **MongoDB** são provenientes de containers do docker. A estratégia é utilizar o Postgres para as persistências gerais do sistema e o MongoDB para persistência de registro de notificações como demonstrado no diagrama de relacionamentos abaixo.
+-   Postgres
+-   MongoDB
+
+\* Os bancos de dados são provenientes de containers do docker.
 
 ## Frontend
 
@@ -109,17 +112,29 @@ Os bancos de dados **Postgres** e **MongoDB** são provenientes de containers do
 ## Backend/Frontend
 
 <p align="left">
-  <img src="./media/icons/docker.svg" alt="Docker" title="Docker" width="40" height="40" />
+  <img src="./media/icons/docker.svg" alt="Docker" title="Docker" width="30" height="30" />
   <img src="./media/icons/codeship.svg" alt="Codeship" title="Codeship" width="30" height="30" />
 </p>
 
--   Docker
--   Codeship (CI/CD)
+-   [Docker](./media/faq/docker-commands.md)
+-   [Codeship (**CI/CD**)](./media/faq/codeship.md)
+
+## Infraestrutura
+
+<p align="left">
+  <img src="./media/icons/nginx.svg" alt="Docker" title="Nginx" width="30" height="30" />
+  <img src="./media/images/pm2.png" alt="PM2" title="PM2" height="30" />
+  <img src="./media/icons/docker.svg" alt="Docker" title="Docker" width="30" height="30" />
+</p>
+
+-   [Nginx](./media/faq/nginx-install-and-configure.md)
+-   [PM2](./media/faq/pm2-configurations.md)
+-   [Docker](./media/faq/docker-commands.md)
 
 ## Recursos e técnicas utilizadas
 
 -   Microserviços
--   Filas com RabbitMq
+-   Filas com RabbitMQ
 -   Authorization/Authentication com o Cognito
 -   Interceptors
 -   Transformers
@@ -128,7 +143,7 @@ Os bancos de dados **Postgres** e **MongoDB** são provenientes de containers do
 -   Padronização de commits (**Conventional commits**)
 -   Swagger
 -   Upload
--   Padronização de código (**SonarLint**)
+-   Padronização de código (**Sonarlint**)
 
 ## Arquitetura
 
@@ -430,7 +445,7 @@ O **Swagger** é um framework composto por diversas ferramentas que, independent
 
 ## CI/CD
 
-## Gitflow
+### Gitflow
 
 O Gitflow é um fluxo de trabalho que auxilia o desenvolvimento contínuo de software entre a equipe envolvida.
 
@@ -439,7 +454,7 @@ O Gitflow é um fluxo de trabalho que auxilia o desenvolvimento contínuo de sof
 ## Branchs
 
 <p align="center">
-    <img src="./media/images/gitflow-v1.png" alt="Gitflow" width="600" />
+    <img src="./media/images/gitflow-v1.png" alt="Gitflow" width="700" />
 </p>
 
 -   **user** - Envia commits apenas para o próprio user, exemplo: tiago-feature-21.
@@ -488,7 +503,7 @@ git commit -m "☂️ feat: cria o módulo de pontos."
 
 👉 [Mais informações](https://www.conventionalcommits.org/en/v1.0.0/)
 
-## Lint com o SonarLint
+## Lint com o Sonarlint
 
 <p align="center">
     <img src="./media/images/sonarlint.png" alt="SonarLint" width="230" />
@@ -501,7 +516,7 @@ O **Sonarlint** é um plugin detector, em tempo real, de códigos mal escritos, 
 ## Prettier
 
 <p align="center">
-    <img src="./media/images/prettier-v1.png" alt="Prettier" width="230" />
+    <img src="./media/images/prettier-v1.png" alt="Prettier" width="250" />
 </p>
 
 O **Prettier** é um formatador de código que visa ajudar os desenvolvedores a escrever aplicações que são mais fáceis de entender e mais uniformizadas entre as diversas formas de programar que existem.
@@ -530,9 +545,9 @@ O **Codeship** é um serviço de entrega contínua hospedado que se concentra na
 
 ### Etapas
 
-1 - **Lint**: Nessa etapa é verificado as regras do Sonarlint;<br />
+1 - **Lint**: Nessa etapa é verificada as regras do Sonarlint;<br />
 2 - **Test**: Nessa etapa é realizado os testes unitários;<br />
-3 - **Deploy**: Nessa etapa é realizado o deploy da apliacação.
+3 - **Build**: Nessa etapa é realizado o build da aplicação.
 
 <hr />
 

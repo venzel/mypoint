@@ -24,3 +24,4 @@
 -   [Dump Postgres with Docker](./media/faq/dump-postgres-docker.md)
 -   [Git install and commands](./media/faq/git-install-and-commands.md)
 -   [Font JetBrains Mono](./media/faq/font-jetbrains-mono.md)
+-   [PM2 configurations](./media/faq/pm2-configurations.md)
