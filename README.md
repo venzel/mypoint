@@ -179,8 +179,8 @@ Cada componente somente precisa se conectar ao broker, e pode permanecer sem nec
 
 A única coisa que precisa ser compartilhada entre os componentes é o protocolo de mensagens.
 
-👉 [Documentação oficial](https://www.rabbitmq.com/getstarted.html)
-👉 [Imagem oficial do docker](https://registry.hub.docker.com/_/rabbitmq/)
+👉 [Documentação oficial](https://www.rabbitmq.com/getstarted.html)<br />
+👉 [Imagem oficial do docker](https://registry.hub.docker.com/_/rabbitmq/)<br />
 👉 [Download do RabbitMQ](https://www.rabbitmq.com/download.html)
 
 ### Um broker se divide em:
