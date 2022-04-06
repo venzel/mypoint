@@ -26,7 +26,7 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
 👉 [Sistema em QA](http://mypoint-qa.venzel.com.br)<br />
 👉 [VS Code (Settings, Keybinds, Theme e Plugins)](./media/vscode/VSCODE.md)<br />
 👉 [Ferramentas & Serviços](./media/faq/geral/tools.md)<br />
-👉 [FAQ Geral](./media/faq/FAQ.md)<br />
+👉 [FAQ Geral](./media/faq/FAQ.md)
 
 ## Etapas de desenvolvimento
 
@@ -115,7 +115,7 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
 -   Vuetify
 -   Javascript
 
-👉 [Link para o git do frontend](./frontend/README.md)<br />
+👉 [Link para a documentação no git do frontend](./frontend/README.md)<br />
 👉 [Link da documentação oficial do VueJs](https://vuejs.org/guide/introduction.html)<br />
 👉 [Link da documentação oficial do Vuetify](https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides)
 
@@ -146,10 +146,10 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
 -   Docker
 -   Certbot
 
--   [Link para faq do Nginx](./media/faq/geral/nginx-install-and-configure.md)
--   [Link para faq do PM2](./media/faq/geral/pm2-configurations.md)
--   [Link para faq do Docker](./media/faq/geral/docker-commands.md)
--   [Link para faq do Certbot](./media/faq/geral/certbot.md)
+👉 [Link para faq do Nginx](./media/faq/geral/nginx-install-and-configure.md)<br />
+👉 [Link para faq do PM2](./media/faq/geral/pm2-configurations.md)<br />
+👉 [Link para faq do Docker](./media/faq/geral/docker-commands.md)<br />
+👉 [Link para faq do Certbot](./media/faq/geral/certbot.md)
 
 ## Recursos e técnicas utilizadas
 
