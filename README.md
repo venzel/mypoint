@@ -24,9 +24,9 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
 👉 [Swagger de Produção](http://mypoint.venzel.com.br/api)<br />
 👉 [Sistema em produção](http://mypoint.venzel.com.br)<br />
 👉 [Sistema em QA](http://mypoint-qa.venzel.com.br)<br />
-👉 [VS Code (Settings, Keybinds, Theme e Plugins)](./VSCODE.md)<br />
-👉 [Ferramentas & Serviços](./TOOLS.md)<br />
-👉 [FAQ Geral](./FAQ.md)<br />
+👉 [VS Code (Settings, Keybinds, Theme e Plugins)](./media/vscode/VSCODE.md)<br />
+👉 [Ferramentas & Serviços](./media/faq/geral/tools.md)<br />
+👉 [FAQ Geral](./media/faq/FAQ.md)<br />
 
 ## Etapas de desenvolvimento
 
@@ -66,7 +66,7 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
 -   **Esforço 13** - Representa > 49 horas e <= 70 horas.
 -   **Esforço 21** - Representam horas não determinadas.
 
-👉 [Mais sobre a metodologia de esforço Fibonaci](./FIBONACCI.md)
+👉 [Mais sobre a metodologia de esforço Fibonacci](./media/docs/fibonacci.md)
 
 ## Backend
 
@@ -86,7 +86,9 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
 -   TypeORM / Postgres / MongoDB
 -   Testes com métricas de coverages (**Jest**)
 
-👉 [Link para o git do backend](./backend/README.md)<br />
+👉 [Link para a documentação no git do backend](./backend/README.md)<br />
+👉 [Link da documentação oficial do NestJs](https://docs.nestjs.com/)<br />
+👉 [Link da documentação oficial do RabbitMQ](https://www.rabbitmq.com/getstarted.html)
 
 ## Persistência dos dados
 
@@ -110,10 +112,12 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
 </p>
 
 -   VueJs
--   [Vuetify](https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides)
+-   Vuetify
 -   Javascript
 
 👉 [Link para o git do frontend](./frontend/README.md)<br />
+👉 [Link da documentação oficial do VueJs](https://vuejs.org/guide/introduction.html)<br />
+👉 [Link da documentação oficial do Vuetify](https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides)
 
 ## Backend/Frontend
 
@@ -122,8 +126,11 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
   <img src="./media/icons/codeship.svg" alt="Codeship" title="Codeship" width="30" height="30" />
 </p>
 
--   [Docker](./media/faq/docker-commands.md)
--   [Codeship (**CI/CD**)](./media/faq/codeship.md)
+-   Docker
+-   Codeship (**CI/CD**)
+
+👉 [Link para a faq do Docker](./media/faq/geral/docker-commands.md)<br />
+👉 [Link para a faq do Codeship](./media/faq/geral/codeship.md)
 
 ## Infraestrutura
 
@@ -134,10 +141,15 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
   <img src="./media/images/certbot.png" alt="PM2" title="Certbot" height="30" />
 </p>
 
--   [Nginx](./media/faq/nginx-install-and-configure.md)
--   [PM2](./media/faq/pm2-configurations.md)
--   [Docker](./media/faq/docker-commands.md)
--   [Certbot](./media/faq/certbot.md)
+-   Nginx
+-   PM2
+-   Docker
+-   Certbot
+
+-   [Link para faq do Nginx](./media/faq/geral/nginx-install-and-configure.md)
+-   [Link para faq do PM2](./media/faq/geral/pm2-configurations.md)
+-   [Link para faq do Docker](./media/faq/geral/docker-commands.md)
+-   [Link para faq do Certbot](./media/faq/geral/certbot.md)
 
 ## Recursos e técnicas utilizadas
 
@@ -181,9 +193,9 @@ Cada componente somente precisa se conectar ao broker, e pode permanecer sem nec
 
 A única coisa que precisa ser compartilhada entre os componentes é o protocolo de mensagens.
 
-👉 [Documentação oficial](https://www.rabbitmq.com/getstarted.html)<br />
-👉 [Imagem oficial do docker](https://registry.hub.docker.com/_/rabbitmq/)<br />
-👉 [Download do RabbitMQ](https://www.rabbitmq.com/download.html)
+👉 [Documentação oficial do RabbitMQ](https://www.rabbitmq.com/getstarted.html)<br />
+👉 [Imagem oficial no Docker](https://registry.hub.docker.com/_/rabbitmq/)<br />
+👉 [Tutorial de download do RabbitMQ](https://www.rabbitmq.com/download.html)
 
 ### Um broker se divide em:
 
@@ -495,7 +507,7 @@ O Gitflow é um fluxo de trabalho que auxilia o desenvolvimento contínuo de sof
 
 \* A branch **master** 🔒 é bloqueada para receber commits de usuários.<br /> \* A branch **master** representa o software em **produção**.<br /> \* A branch **develop** representa o software em **QA**.<br /> \* Fica determinado que sempre que um merge request na branch develop for aprovado ou reprovado, a branch do usuário **NÃO** será deletada, a fim de manter o histórico de branchs.
 
-👉 [Documentação completa do gitflow - passo a passo](./gitflow.md)
+👉 [Documentação completa do gitflow - passo a passo](./media/docs/gitflow.md)
 
 ## Padronização de commits (Conventional Commits)
 

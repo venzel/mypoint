@@ -1,3 +1,0 @@
-# Certbot
-
-[FAQ](../../FAQ.md)
