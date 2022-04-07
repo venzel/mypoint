@@ -1,6 +1,6 @@
 # FIBONACCI
 
-[README](../../README.md)
+[Ir para README](../../README.md)
 
 ## Guia para Estimativa de Esforço para Estórias/Tarefas
 

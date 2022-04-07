@@ -1,6 +1,6 @@
 # GITFLOW
 
-[README](../../README.md)
+[Ir para README](../../README.md)
 
 ## Autor da FAQ
 
