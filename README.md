@@ -106,7 +106,7 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
 ### TypeORM
 
 <p align="center">
-    <img src="./media/images/typeorm.png" alt="TypeORM" width="200" />
+    <img src="./media/images/typeorm.png" alt="TypeORM" width="250" />
 </p>
 
 O **TypeORM** é um ORM que pode ser utilizado em plataformas como o Node, NestJs, dentre outras, e que possibilita o desenvolvimento tanto com JavaScript como com TypeScript. O TypeORM foi inspirado no Hibernate e Entity Framework, oferece suporte a Decorators e trabalha com bancos de dados como PostgreSQL, Microsoft SQL Server, e atualmente com MongoDB.
