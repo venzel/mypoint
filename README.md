@@ -103,6 +103,17 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
 
 \* Os bancos de dados são provenientes de containers do docker.
 
+### TypeORM
+
+<p align="center">
+    <img src="./media/images/typeorm.png" alt="TypeORM" width="200" />
+</p>
+
+O **TypeORM** é um ORM que pode ser utilizado em plataformas como o Node, NestJs, dentre outras, e que possibilita o desenvolvimento tanto com JavaScript como com TypeScript. O TypeORM foi inspirado no Hibernate e Entity Framework, oferece suporte a Decorators e trabalha com bancos de dados como PostgreSQL, Microsoft SQL Server, e atualmente com MongoDB.
+
+👉 [Mais informações sobre o TypeORM na Medium](https://medium.com/@matheusbessa_44838/orm-no-nodejs-com-typeorm-a3b3d8a22240)<br />
+👉 [Documentação oficial do TypeORM](https://typeorm.io/)
+
 ## Frontend
 
 <p align="left">
