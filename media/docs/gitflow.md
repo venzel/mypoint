@@ -18,19 +18,19 @@ Cada projeto e suas equipes podem optar por um determinado fluxo, abaixo é demo
 
 ## Branchs
 
--   **user** - Eviará commits apenas para o próprio user, exemplo: tiago-feature-21.
--   **develop** - Receberá os merges dos users. (Ambiente de QA)
--   **master** - Receberá o merge da develop, final de uma release. (Ambiente de produção)
+<p align="center">
+    <img src="./media/images/gitflow-v1.png" alt="Gitflow" width="700" />
+</p>
+
+-   **user** - Envia commits apenas para o próprio user, exemplo: tiago-feature-21.
+-   **develop** - Recebe merges dos users. (**Ambiente de QA**)
+-   **master** 🔒 - Recebe merges da develop, no final de uma release. (**Ambiente de produção**)
 
 ### Diretrizes
 
-\* A branch **master** é bloqueada para receber commits e pull requests dos usuários. (recurso apenas no plano git pro), caso não possua o git pro, fica estabelecido, a proibição o envio de commits e pull requests do user para master.
+\* A branch **master** 🔒 é bloqueada para receber commits de usuários.<br /> \* A branch **master** representa o software em **produção**.<br /> \* A branch **develop** representa o software em **QA**.<br /> \* Fica determinado que sempre que um merge request na branch develop for aprovado ou reprovado, a branch do usuário **NÃO** será deletada, a fim de manter o histórico de branchs.
 
-\* A branch **master** representa o software em **produção**.
-
-\* A branch **develop** representa o software em **QA**.
-
-\* Fica determinado que sempre que um pull request na branch develop for aprovado ou reprovado, a branch do usuário NÃO será deletada, a fim de manter o git organizado.
+👉 [Documentação completa do gitflow - passo a passo](./media/docs/gitflow.md)
 
 ### Etapas básicas no processo de interação no git
 
