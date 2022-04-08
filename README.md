@@ -18,8 +18,8 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
 
 ## ⚓ Links
 
-👉 [Git do backend](https://github.com/venzel/mypoint-backend)<br />
-👉 [Git do frontend](https://github.com/venzel/mypoint-frontend)<br />
+👉 [Git do backend](https://github.com/venzel/mypoint-backend) 🔒 (privado)<br />
+👉 [Git do frontend](https://github.com/venzel/mypoint-frontend) 🔒 (privado)<br />
 👉 [Swagger de QA](https://qa.mypoint.pro/api)<br />
 👉 [Swagger de Produção](https://mypoint.pro/api)<br />
 👉 [Sistema em QA](https://qa.mypoint.pro)<br />
