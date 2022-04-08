@@ -4,7 +4,7 @@
 
 ## 📜 Sobre
 
-> **MyPoint** é um sistema de registro de pontos de funcionários, utilizando filas com o RabbitMQ.<br /> <a href="http://mypoint.venzel.com.br/api">👉 MyPoint</a>
+> **MyPoint** é um sistema de registro de pontos de funcionários, utilizando filas com o RabbitMQ.<br /> <a href="http://mypoint.pro">👉 MyPoint</a>
 
 ## Qual problema resolve?
 
@@ -20,10 +20,10 @@ O registro de ponto ocorre geralmente sempre aos mesmos horários por todos os f
 
 👉 [Git do backend](./backend/README.md)<br />
 👉 [Git do frontend](./frontend/README.md)<br />
-👉 [Swagger de QA](http://mypoint-qa.venzel.com.br/api)<br />
-👉 [Swagger de Produção](http://mypoint.venzel.com.br/api)<br />
-👉 [Sistema em produção](http://mypoint.venzel.com.br)<br />
-👉 [Sistema em QA](http://mypoint-qa.venzel.com.br)<br />
+👉 [Swagger de QA](https://qa.mypoint.pro/api)<br />
+👉 [Swagger de Produção](https://mypoint.pro/api)<br />
+👉 [Sistema em QA](https://qa.mypoint.pro)<br />
+👉 [Sistema em produção](https://mypoint.pro)<br />
 👉 [VS Code (Settings, Keybinds, Theme e Plugins)](./media/vscode/VSCODE.md)<br />
 👉 [Ferramentas & Serviços](./media/faq/geral/tools.md)<br />
 👉 [FAQ Geral](./media/faq/FAQ.md)
@@ -149,7 +149,7 @@ O **TypeORM** é um ORM que pode ser utilizado em plataformas como o Node, NestJ
   <img src="./media/icons/nginx.svg" alt="Docker" title="Nginx" width="30" height="30" />
   <img src="./media/images/pm2.png" alt="PM2" title="PM2" height="30" />
   <img src="./media/icons/docker.svg" alt="Docker" title="Docker" width="30" height="30" />
-  <img src="./media/images/certbot.png" alt="PM2" title="Certbot" height="30" />
+  <img src="./media/images/certbot.png" alt="Certbot" title="Certbot" height="30" />
 </p>
 
 -   Nginx
@@ -392,32 +392,32 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 
 ## Endpoints do API Gateway (Proxy)
 
-| Path                                                                                        | Método | Token | Role  | Descrição                  |
-| ------------------------------------------------------------------------------------------- | ------ | ----- | ----- | -------------------------- |
-| **USER**                                                                                    |
-| [/account](https://mypoint.venzel.com.br/account)                                           | GET    |       | ALL   | Efetua login               |
-| [/account](https://mypoint.venzel.com.br/account)                                           | POST   |       | ALL   | Cria um usuário            |
-| [/password-recover](https://mypoint.venzel.com.br/password-recover)                         | POST   |       | ALL   | Recupera a senha           |
-| [/users](https://mypoint.venzel.com.br/users)                                               | GET    | 🔥    | ADMIN | Lista todos os usuários    |
-| [/users/{id}](https://mypoint.venzel.com.br/users/1)                                        | GET    | 🔥    | ADMIN | Exibe um usuário           |
-| [/users/{id}](https://mypoint.venzel.com.br/users/1)                                        | DELETE | 🔥    | USER  | Deleta um usuário          |
-| [/users/{id}](https://mypoint.venzel.com.br/users/1)                                        | PUT    | 🔥    | USER  | Edita um usuário           |
-| [/user-status-toggler/{id}](https://mypoint.venzel.com.br/user-status-toggler/1)            | PATCH  | 🔥    | ADMIN | Altera o status do usuário |
-| [/find-user?name={name}...](https://mypoint.venzel.com.br/find-user?name=tiago&page=number) | GET    | 🔥    | ADMIN | Busca por usuário          |
-| **SCALE**                                                                                   |
-| [/scales](https://mypoint.venzel.com.br/scales)                                             | GET    | 🔥    | ADMIN | Lista as ecalas            |
-| [/scales](https://mypoint.venzel.com.br/scales)                                             | POST   | 🔥    | ADMIN | Cria uma escala            |
-| [/scales/{id}](https://mypoint.venzel.com.br/scales/1)                                      | PUT    | 🔥    | ADMIN | Altera uma escala          |
-| [/scales/{id}](https://mypoint.venzel.com.br/scales/1)                                      | DELETE | 🔥    | ADMIN | Delete uma escala          |
-| [/scales/{id}](https://mypoint.venzel.com.br/scales/1)                                      | GET    | 🔥    | USER  | Exibe uma escala           |
-| **USER/SCALE**                                                                              |
-| [/manager-user-escale](https://mypoint.venzel.com.br/manager-user-escale)                   | GET    | 🔥    | ADMIN | Lista usuários e ecalas    |
-| [/manager-user-escale/{1}](https://mypoint.venzel.com.br/manager-user-escale/1)             | UPDATE | 🔥    | ADMIN | Editar escalas do usuário  |
-| [/manager-user-escale/{1}](https://mypoint.venzel.com.br/manager-user-escale/1)             | DELETE | 🔥    | ADMIN | Deleta escala do usuário   |
-| **POINT**                                                                                   |
-| [/points](https://mypoint.venzel.com.br/points)                                             | POST   | 🔥    | USER  | Cria um ponto              |
-| **REPORT**                                                                                  |
-| [/reports](https://mypoint.venzel.com.br/reports)                                           | GET    | 🔥    | USER  | Exibe o relatório          |
+| Path                                                                                     | Método | Token | Role  | Descrição                  |
+| ---------------------------------------------------------------------------------------- | ------ | ----- | ----- | -------------------------- |
+| **USER**                                                                                 |
+| [/account](https://mypoint.pro/api/v1/account)                                           | GET    |       | ALL   | Efetua login               |
+| [/account](https://mypoint.pro/api/v1/account)                                           | POST   |       | ALL   | Cria um usuário            |
+| [/password-recover](https://mypoint.pro/api/v1/password-recover)                         | POST   |       | ALL   | Recupera a senha           |
+| [/users](https://mypoint.pro/api/v1/users)                                               | GET    | 🔥    | ADMIN | Lista todos os usuários    |
+| [/users/{id}](https://mypoint.pro/api/v1/users/1)                                        | GET    | 🔥    | ADMIN | Exibe um usuário           |
+| [/users/{id}](https://mypoint.pro/api/v1/users/1)                                        | DELETE | 🔥    | USER  | Deleta um usuário          |
+| [/users/{id}](https://mypoint.pro/api/v1/users/1)                                        | PUT    | 🔥    | USER  | Edita um usuário           |
+| [/user-status-toggler/{id}](https://mypoint.pro/api/v1/user-status-toggler/1)            | PATCH  | 🔥    | ADMIN | Altera o status do usuário |
+| [/find-user?name={name}...](https://mypoint.pro/api/v1/find-user?name=tiago&page=number) | GET    | 🔥    | ADMIN | Busca por usuário          |
+| **SCALE**                                                                                |
+| [/scales](https://mypoint.pro/api/v1/scales)                                             | GET    | 🔥    | ADMIN | Lista as ecalas            |
+| [/scales](https://mypoint.pro/api/v1/scales)                                             | POST   | 🔥    | ADMIN | Cria uma escala            |
+| [/scales/{id}](https://mypoint.pro/api/v1/scales/1)                                      | PUT    | 🔥    | ADMIN | Altera uma escala          |
+| [/scales/{id}](https://mypoint.pro/api/v1/scales/1)                                      | DELETE | 🔥    | ADMIN | Delete uma escala          |
+| [/scales/{id}](https://mypoint.pro/api/v1/scales/1)                                      | GET    | 🔥    | USER  | Exibe uma escala           |
+| **USER/SCALE**                                                                           |
+| [/manager-user-escale](https://mypoint.pro/api/v1/manager-user-escale)                   | GET    | 🔥    | ADMIN | Lista usuários e ecalas    |
+| [/manager-user-escale/{1}](https://mypoint.pro/api/v1/manager-user-escale/1)             | UPDATE | 🔥    | ADMIN | Editar escalas do usuário  |
+| [/manager-user-escale/{1}](https://mypoint.pro/api/v1/manager-user-escale/1)             | DELETE | 🔥    | ADMIN | Deleta escala do usuário   |
+| **POINT**                                                                                |
+| [/points](https://mypoint.pro/api/v1/points)                                             | POST   | 🔥    | USER  | Cria um ponto              |
+| **REPORT**                                                                               |
+| [/reports](https://mypoint.pro/api/v1/reports)                                           | GET    | 🔥    | USER  | Exibe o relatório          |
 
 <details>
 <summary>Endpoints da API Rest</summary>
@@ -442,7 +442,7 @@ Feature by Package é uma arquitetura que utiliza conceitos do **DDD (Domain Dri
 O **Swagger** é um framework composto por diversas ferramentas que, independente da linguagem, auxilia a descrição, consumo e visualização de serviços de uma API REST.
 
 👉 [Link do Swagger de QA](http://mypoint-qa.venzel.com.br/api)<br />
-👉 [Link do Swagger de Produção](http://mypoint.venzel.com.br/api)<br />
+👉 [Link do Swagger de Produção](http://mypoint.pro/api/v1/api)<br />
 👉 [Link oficial da documentação do Swagger](https://swagger.io/docs/)
 
 ## Diagrama de caso de uso
